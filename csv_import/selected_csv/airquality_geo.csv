@@ -1,0 +1,1810 @@
+indicator_data_id,geo_type_name,geo_entity_id,geo_entity_name
+130728,Borough,1,Bronx
+130729,Borough,2,Brooklyn
+130730,Borough,3,Manhattan
+130731,Borough,4,Queens
+130732,Borough,5,Staten Island
+130727,Citywide,1,New York City
+130685,UHF42,101,Kingsbridge - Riverdale
+130686,UHF42,102,Northeast Bronx
+130687,UHF42,103,Fordham - Bronx Pk
+130688,UHF42,104,Pelham - Throgs Neck
+130689,UHF42,105,Crotona -Tremont
+130690,UHF42,106,High Bridge - Morrisania
+130691,UHF42,107,Hunts Point - Mott Haven
+130692,UHF42,201,Greenpoint
+130693,UHF42,202,Downtown - Heights - Slope
+130694,UHF42,203,Bedford Stuyvesant - Crown Heights
+130695,UHF42,204,East New York
+130696,UHF42,205,Sunset Park
+130697,UHF42,206,Borough Park
+130698,UHF42,207,East Flatbush - Flatbush
+130699,UHF42,208,Canarsie - Flatlands
+130700,UHF42,209,Bensonhurst - Bay Ridge
+130701,UHF42,210,Coney Island - Sheepshead Bay
+130702,UHF42,211,Williamsburg - Bushwick
+130703,UHF42,301,Washington Heights
+130704,UHF42,302,Central Harlem - Morningside Heights
+130705,UHF42,303,East Harlem
+130706,UHF42,304,Upper West Side
+130707,UHF42,305,Upper East Side
+130708,UHF42,306,Chelsea - Clinton
+130709,UHF42,307,Gramercy Park - Murray Hill
+130710,UHF42,308,Greenwich Village - SoHo
+130711,UHF42,309,Union Square - Lower East Side
+130712,UHF42,310,Lower Manhattan
+130713,UHF42,401,Long Island City - Astoria
+130714,UHF42,402,West Queens
+130715,UHF42,403,Flushing - Clearview
+130716,UHF42,404,Bayside - Little Neck
+130717,UHF42,405,Ridgewood - Forest Hills
+130718,UHF42,406,Fresh Meadows
+130719,UHF42,407,Southwest Queens
+130720,UHF42,408,Jamaica
+130721,UHF42,409,Southeast Queens
+130722,UHF42,410,Rockaways
+130723,UHF42,501,Port Richmond
+130724,UHF42,502,Stapleton - St. George
+130725,UHF42,503,Willowbrook
+130726,UHF42,504,South Beach - Tottenville
+130776,Borough,1,Bronx
+130777,Borough,2,Brooklyn
+130778,Borough,3,Manhattan
+130779,Borough,4,Queens
+130780,Borough,5,Staten Island
+130775,Citywide,1,New York City
+130733,UHF42,101,Kingsbridge - Riverdale
+130734,UHF42,102,Northeast Bronx
+130735,UHF42,103,Fordham - Bronx Pk
+130736,UHF42,104,Pelham - Throgs Neck
+130737,UHF42,105,Crotona -Tremont
+130738,UHF42,106,High Bridge - Morrisania
+130739,UHF42,107,Hunts Point - Mott Haven
+130740,UHF42,201,Greenpoint
+130741,UHF42,202,Downtown - Heights - Slope
+130742,UHF42,203,Bedford Stuyvesant - Crown Heights
+130743,UHF42,204,East New York
+130744,UHF42,205,Sunset Park
+130745,UHF42,206,Borough Park
+130746,UHF42,207,East Flatbush - Flatbush
+130747,UHF42,208,Canarsie - Flatlands
+130748,UHF42,209,Bensonhurst - Bay Ridge
+130749,UHF42,210,Coney Island - Sheepshead Bay
+130750,UHF42,211,Williamsburg - Bushwick
+130751,UHF42,301,Washington Heights
+130752,UHF42,302,Central Harlem - Morningside Heights
+130753,UHF42,303,East Harlem
+130754,UHF42,304,Upper West Side
+130755,UHF42,305,Upper East Side
+130756,UHF42,306,Chelsea - Clinton
+130757,UHF42,307,Gramercy Park - Murray Hill
+130758,UHF42,308,Greenwich Village - SoHo
+130759,UHF42,309,Union Square - Lower East Side
+130760,UHF42,310,Lower Manhattan
+130761,UHF42,401,Long Island City - Astoria
+130762,UHF42,402,West Queens
+130763,UHF42,403,Flushing - Clearview
+130764,UHF42,404,Bayside - Little Neck
+130765,UHF42,405,Ridgewood - Forest Hills
+130766,UHF42,406,Fresh Meadows
+130767,UHF42,407,Southwest Queens
+130768,UHF42,408,Jamaica
+130769,UHF42,409,Southeast Queens
+130770,UHF42,410,Rockaways
+130771,UHF42,501,Port Richmond
+130772,UHF42,502,Stapleton - St. George
+130773,UHF42,503,Willowbrook
+130774,UHF42,504,South Beach - Tottenville
+130536,Borough,1,Bronx
+130537,Borough,2,Brooklyn
+130538,Borough,3,Manhattan
+130539,Borough,4,Queens
+130540,Borough,5,Staten Island
+130535,Citywide,1,New York City
+130493,UHF42,101,Kingsbridge - Riverdale
+130494,UHF42,102,Northeast Bronx
+130495,UHF42,103,Fordham - Bronx Pk
+130496,UHF42,104,Pelham - Throgs Neck
+130497,UHF42,105,Crotona -Tremont
+130498,UHF42,106,High Bridge - Morrisania
+130499,UHF42,107,Hunts Point - Mott Haven
+130500,UHF42,201,Greenpoint
+130501,UHF42,202,Downtown - Heights - Slope
+130502,UHF42,203,Bedford Stuyvesant - Crown Heights
+130503,UHF42,204,East New York
+130504,UHF42,205,Sunset Park
+130505,UHF42,206,Borough Park
+130506,UHF42,207,East Flatbush - Flatbush
+130507,UHF42,208,Canarsie - Flatlands
+130508,UHF42,209,Bensonhurst - Bay Ridge
+130509,UHF42,210,Coney Island - Sheepshead Bay
+130510,UHF42,211,Williamsburg - Bushwick
+130511,UHF42,301,Washington Heights
+130512,UHF42,302,Central Harlem - Morningside Heights
+130513,UHF42,303,East Harlem
+130514,UHF42,304,Upper West Side
+130515,UHF42,305,Upper East Side
+130516,UHF42,306,Chelsea - Clinton
+130517,UHF42,307,Gramercy Park - Murray Hill
+130518,UHF42,308,Greenwich Village - SoHo
+130519,UHF42,309,Union Square - Lower East Side
+130520,UHF42,310,Lower Manhattan
+130521,UHF42,401,Long Island City - Astoria
+130522,UHF42,402,West Queens
+130523,UHF42,403,Flushing - Clearview
+130524,UHF42,404,Bayside - Little Neck
+130525,UHF42,405,Ridgewood - Forest Hills
+130526,UHF42,406,Fresh Meadows
+130527,UHF42,407,Southwest Queens
+130528,UHF42,408,Jamaica
+130529,UHF42,409,Southeast Queens
+130530,UHF42,410,Rockaways
+130531,UHF42,501,Port Richmond
+130532,UHF42,502,Stapleton - St. George
+130533,UHF42,503,Willowbrook
+130534,UHF42,504,South Beach - Tottenville
+130488,Borough,1,Bronx
+130489,Borough,2,Brooklyn
+130490,Borough,3,Manhattan
+130491,Borough,4,Queens
+130492,Borough,5,Staten Island
+130487,Citywide,1,New York City
+130445,UHF42,101,Kingsbridge - Riverdale
+130446,UHF42,102,Northeast Bronx
+130447,UHF42,103,Fordham - Bronx Pk
+130448,UHF42,104,Pelham - Throgs Neck
+130449,UHF42,105,Crotona -Tremont
+130450,UHF42,106,High Bridge - Morrisania
+130451,UHF42,107,Hunts Point - Mott Haven
+130452,UHF42,201,Greenpoint
+130453,UHF42,202,Downtown - Heights - Slope
+130454,UHF42,203,Bedford Stuyvesant - Crown Heights
+130455,UHF42,204,East New York
+130456,UHF42,205,Sunset Park
+130457,UHF42,206,Borough Park
+130458,UHF42,207,East Flatbush - Flatbush
+130459,UHF42,208,Canarsie - Flatlands
+130460,UHF42,209,Bensonhurst - Bay Ridge
+130461,UHF42,210,Coney Island - Sheepshead Bay
+130462,UHF42,211,Williamsburg - Bushwick
+130463,UHF42,301,Washington Heights
+130464,UHF42,302,Central Harlem - Morningside Heights
+130465,UHF42,303,East Harlem
+130466,UHF42,304,Upper West Side
+130467,UHF42,305,Upper East Side
+130468,UHF42,306,Chelsea - Clinton
+130469,UHF42,307,Gramercy Park - Murray Hill
+130470,UHF42,308,Greenwich Village - SoHo
+130471,UHF42,309,Union Square - Lower East Side
+130472,UHF42,310,Lower Manhattan
+130473,UHF42,401,Long Island City - Astoria
+130474,UHF42,402,West Queens
+130475,UHF42,403,Flushing - Clearview
+130476,UHF42,404,Bayside - Little Neck
+130477,UHF42,405,Ridgewood - Forest Hills
+130478,UHF42,406,Fresh Meadows
+130479,UHF42,407,Southwest Queens
+130480,UHF42,408,Jamaica
+130481,UHF42,409,Southeast Queens
+130482,UHF42,410,Rockaways
+130483,UHF42,501,Port Richmond
+130484,UHF42,502,Stapleton - St. George
+130485,UHF42,503,Willowbrook
+130486,UHF42,504,South Beach - Tottenville
+130440,Borough,1,Bronx
+130441,Borough,2,Brooklyn
+130442,Borough,3,Manhattan
+130443,Borough,4,Queens
+130444,Borough,5,Staten Island
+130439,Citywide,1,New York City
+130397,UHF42,101,Kingsbridge - Riverdale
+130398,UHF42,102,Northeast Bronx
+130399,UHF42,103,Fordham - Bronx Pk
+130400,UHF42,104,Pelham - Throgs Neck
+130401,UHF42,105,Crotona -Tremont
+130402,UHF42,106,High Bridge - Morrisania
+130403,UHF42,107,Hunts Point - Mott Haven
+130404,UHF42,201,Greenpoint
+130405,UHF42,202,Downtown - Heights - Slope
+130406,UHF42,203,Bedford Stuyvesant - Crown Heights
+130407,UHF42,204,East New York
+130408,UHF42,205,Sunset Park
+130409,UHF42,206,Borough Park
+130410,UHF42,207,East Flatbush - Flatbush
+130411,UHF42,208,Canarsie - Flatlands
+130412,UHF42,209,Bensonhurst - Bay Ridge
+130413,UHF42,210,Coney Island - Sheepshead Bay
+130414,UHF42,211,Williamsburg - Bushwick
+130415,UHF42,301,Washington Heights
+130416,UHF42,302,Central Harlem - Morningside Heights
+130417,UHF42,303,East Harlem
+130418,UHF42,304,Upper West Side
+130419,UHF42,305,Upper East Side
+130420,UHF42,306,Chelsea - Clinton
+130421,UHF42,307,Gramercy Park - Murray Hill
+130422,UHF42,308,Greenwich Village - SoHo
+130423,UHF42,309,Union Square - Lower East Side
+130424,UHF42,310,Lower Manhattan
+130425,UHF42,401,Long Island City - Astoria
+130426,UHF42,402,West Queens
+130427,UHF42,403,Flushing - Clearview
+130428,UHF42,404,Bayside - Little Neck
+130429,UHF42,405,Ridgewood - Forest Hills
+130430,UHF42,406,Fresh Meadows
+130431,UHF42,407,Southwest Queens
+130432,UHF42,408,Jamaica
+130433,UHF42,409,Southeast Queens
+130434,UHF42,410,Rockaways
+130435,UHF42,501,Port Richmond
+130436,UHF42,502,Stapleton - St. George
+130437,UHF42,503,Willowbrook
+130438,UHF42,504,South Beach - Tottenville
+131694,Borough,1,Bronx
+131695,Borough,2,Brooklyn
+131696,Borough,3,Manhattan
+131697,Borough,4,Queens
+131698,Borough,5,Staten Island
+131693,Citywide,1,New York City
+131651,UHF42,101,Kingsbridge - Riverdale
+131652,UHF42,102,Northeast Bronx
+131653,UHF42,103,Fordham - Bronx Pk
+131654,UHF42,104,Pelham - Throgs Neck
+131655,UHF42,105,Crotona -Tremont
+131656,UHF42,106,High Bridge - Morrisania
+131657,UHF42,107,Hunts Point - Mott Haven
+131658,UHF42,201,Greenpoint
+131659,UHF42,202,Downtown - Heights - Slope
+131660,UHF42,203,Bedford Stuyvesant - Crown Heights
+131661,UHF42,204,East New York
+131662,UHF42,205,Sunset Park
+131663,UHF42,206,Borough Park
+131664,UHF42,207,East Flatbush - Flatbush
+131665,UHF42,208,Canarsie - Flatlands
+131666,UHF42,209,Bensonhurst - Bay Ridge
+131667,UHF42,210,Coney Island - Sheepshead Bay
+131668,UHF42,211,Williamsburg - Bushwick
+131669,UHF42,301,Washington Heights
+131610,UHF42,201,Greenpoint
+131670,UHF42,302,Central Harlem - Morningside Heights
+131671,UHF42,303,East Harlem
+131672,UHF42,304,Upper West Side
+131673,UHF42,305,Upper East Side
+131674,UHF42,306,Chelsea - Clinton
+131675,UHF42,307,Gramercy Park - Murray Hill
+131676,UHF42,308,Greenwich Village - SoHo
+131677,UHF42,309,Union Square - Lower East Side
+131678,UHF42,310,Lower Manhattan
+131679,UHF42,401,Long Island City - Astoria
+131680,UHF42,402,West Queens
+131681,UHF42,403,Flushing - Clearview
+131682,UHF42,404,Bayside - Little Neck
+131683,UHF42,405,Ridgewood - Forest Hills
+131684,UHF42,406,Fresh Meadows
+131685,UHF42,407,Southwest Queens
+131686,UHF42,408,Jamaica
+131687,UHF42,409,Southeast Queens
+131688,UHF42,410,Rockaways
+131689,UHF42,501,Port Richmond
+131690,UHF42,502,Stapleton - St. George
+131691,UHF42,503,Willowbrook
+131692,UHF42,504,South Beach - Tottenville
+131646,Borough,1,Bronx
+131647,Borough,2,Brooklyn
+131648,Borough,3,Manhattan
+131649,Borough,4,Queens
+131650,Borough,5,Staten Island
+131645,Citywide,1,New York City
+131603,UHF42,101,Kingsbridge - Riverdale
+131604,UHF42,102,Northeast Bronx
+131605,UHF42,103,Fordham - Bronx Pk
+131606,UHF42,104,Pelham - Throgs Neck
+131607,UHF42,105,Crotona -Tremont
+131608,UHF42,106,High Bridge - Morrisania
+131609,UHF42,107,Hunts Point - Mott Haven
+131611,UHF42,202,Downtown - Heights - Slope
+131612,UHF42,203,Bedford Stuyvesant - Crown Heights
+131613,UHF42,204,East New York
+131614,UHF42,205,Sunset Park
+131615,UHF42,206,Borough Park
+131616,UHF42,207,East Flatbush - Flatbush
+131617,UHF42,208,Canarsie - Flatlands
+131618,UHF42,209,Bensonhurst - Bay Ridge
+131619,UHF42,210,Coney Island - Sheepshead Bay
+131620,UHF42,211,Williamsburg - Bushwick
+131621,UHF42,301,Washington Heights
+131622,UHF42,302,Central Harlem - Morningside Heights
+131623,UHF42,303,East Harlem
+131624,UHF42,304,Upper West Side
+131625,UHF42,305,Upper East Side
+131626,UHF42,306,Chelsea - Clinton
+131627,UHF42,307,Gramercy Park - Murray Hill
+131628,UHF42,308,Greenwich Village - SoHo
+131629,UHF42,309,Union Square - Lower East Side
+131630,UHF42,310,Lower Manhattan
+131631,UHF42,401,Long Island City - Astoria
+131632,UHF42,402,West Queens
+131633,UHF42,403,Flushing - Clearview
+131634,UHF42,404,Bayside - Little Neck
+131635,UHF42,405,Ridgewood - Forest Hills
+131636,UHF42,406,Fresh Meadows
+131637,UHF42,407,Southwest Queens
+131638,UHF42,408,Jamaica
+131639,UHF42,409,Southeast Queens
+131640,UHF42,410,Rockaways
+131641,UHF42,501,Port Richmond
+131642,UHF42,502,Stapleton - St. George
+131643,UHF42,503,Willowbrook
+131644,UHF42,504,South Beach - Tottenville
+131742,Borough,1,Bronx
+131743,Borough,2,Brooklyn
+131744,Borough,3,Manhattan
+131745,Borough,4,Queens
+131746,Borough,5,Staten Island
+131741,Citywide,1,New York City
+131699,UHF42,101,Kingsbridge - Riverdale
+131700,UHF42,102,Northeast Bronx
+131701,UHF42,103,Fordham - Bronx Pk
+131702,UHF42,104,Pelham - Throgs Neck
+131703,UHF42,105,Crotona -Tremont
+131704,UHF42,106,High Bridge - Morrisania
+131705,UHF42,107,Hunts Point - Mott Haven
+131706,UHF42,201,Greenpoint
+131707,UHF42,202,Downtown - Heights - Slope
+131708,UHF42,203,Bedford Stuyvesant - Crown Heights
+131709,UHF42,204,East New York
+131710,UHF42,205,Sunset Park
+131711,UHF42,206,Borough Park
+131712,UHF42,207,East Flatbush - Flatbush
+131713,UHF42,208,Canarsie - Flatlands
+131714,UHF42,209,Bensonhurst - Bay Ridge
+131715,UHF42,210,Coney Island - Sheepshead Bay
+131716,UHF42,211,Williamsburg - Bushwick
+131717,UHF42,301,Washington Heights
+131718,UHF42,302,Central Harlem - Morningside Heights
+131719,UHF42,303,East Harlem
+131720,UHF42,304,Upper West Side
+131721,UHF42,305,Upper East Side
+131722,UHF42,306,Chelsea - Clinton
+131723,UHF42,307,Gramercy Park - Murray Hill
+131724,UHF42,308,Greenwich Village - SoHo
+131725,UHF42,309,Union Square - Lower East Side
+131726,UHF42,310,Lower Manhattan
+131727,UHF42,401,Long Island City - Astoria
+131728,UHF42,402,West Queens
+131729,UHF42,403,Flushing - Clearview
+131730,UHF42,404,Bayside - Little Neck
+131731,UHF42,405,Ridgewood - Forest Hills
+131732,UHF42,406,Fresh Meadows
+131733,UHF42,407,Southwest Queens
+131734,UHF42,408,Jamaica
+131735,UHF42,409,Southeast Queens
+131736,UHF42,410,Rockaways
+131737,UHF42,501,Port Richmond
+131738,UHF42,502,Stapleton - St. George
+131739,UHF42,503,Willowbrook
+131740,UHF42,504,South Beach - Tottenville
+131790,Borough,1,Bronx
+131791,Borough,2,Brooklyn
+131792,Borough,3,Manhattan
+131793,Borough,4,Queens
+131794,Borough,5,Staten Island
+131789,Citywide,1,New York City
+131747,UHF42,101,Kingsbridge - Riverdale
+131748,UHF42,102,Northeast Bronx
+131749,UHF42,103,Fordham - Bronx Pk
+131750,UHF42,104,Pelham - Throgs Neck
+131751,UHF42,105,Crotona -Tremont
+131752,UHF42,106,High Bridge - Morrisania
+131753,UHF42,107,Hunts Point - Mott Haven
+131754,UHF42,201,Greenpoint
+131755,UHF42,202,Downtown - Heights - Slope
+131756,UHF42,203,Bedford Stuyvesant - Crown Heights
+131757,UHF42,204,East New York
+131758,UHF42,205,Sunset Park
+131759,UHF42,206,Borough Park
+131760,UHF42,207,East Flatbush - Flatbush
+131761,UHF42,208,Canarsie - Flatlands
+131762,UHF42,209,Bensonhurst - Bay Ridge
+131763,UHF42,210,Coney Island - Sheepshead Bay
+131764,UHF42,211,Williamsburg - Bushwick
+131765,UHF42,301,Washington Heights
+131766,UHF42,302,Central Harlem - Morningside Heights
+131767,UHF42,303,East Harlem
+131768,UHF42,304,Upper West Side
+131769,UHF42,305,Upper East Side
+131770,UHF42,306,Chelsea - Clinton
+131771,UHF42,307,Gramercy Park - Murray Hill
+131772,UHF42,308,Greenwich Village - SoHo
+131773,UHF42,309,Union Square - Lower East Side
+131774,UHF42,310,Lower Manhattan
+131775,UHF42,401,Long Island City - Astoria
+131776,UHF42,402,West Queens
+131777,UHF42,403,Flushing - Clearview
+131778,UHF42,404,Bayside - Little Neck
+131779,UHF42,405,Ridgewood - Forest Hills
+131780,UHF42,406,Fresh Meadows
+131781,UHF42,407,Southwest Queens
+131782,UHF42,408,Jamaica
+131783,UHF42,409,Southeast Queens
+131784,UHF42,410,Rockaways
+131785,UHF42,501,Port Richmond
+131786,UHF42,502,Stapleton - St. George
+131787,UHF42,503,Willowbrook
+131788,UHF42,504,South Beach - Tottenville
+131838,Borough,1,Bronx
+131839,Borough,2,Brooklyn
+131840,Borough,3,Manhattan
+131841,Borough,4,Queens
+131842,Borough,5,Staten Island
+131837,Citywide,1,New York City
+131795,UHF42,101,Kingsbridge - Riverdale
+131796,UHF42,102,Northeast Bronx
+131797,UHF42,103,Fordham - Bronx Pk
+131798,UHF42,104,Pelham - Throgs Neck
+131799,UHF42,105,Crotona -Tremont
+131800,UHF42,106,High Bridge - Morrisania
+131801,UHF42,107,Hunts Point - Mott Haven
+131802,UHF42,201,Greenpoint
+131803,UHF42,202,Downtown - Heights - Slope
+131804,UHF42,203,Bedford Stuyvesant - Crown Heights
+131805,UHF42,204,East New York
+131806,UHF42,205,Sunset Park
+131807,UHF42,206,Borough Park
+131808,UHF42,207,East Flatbush - Flatbush
+131809,UHF42,208,Canarsie - Flatlands
+131810,UHF42,209,Bensonhurst - Bay Ridge
+131811,UHF42,210,Coney Island - Sheepshead Bay
+131812,UHF42,211,Williamsburg - Bushwick
+131813,UHF42,301,Washington Heights
+131814,UHF42,302,Central Harlem - Morningside Heights
+131815,UHF42,303,East Harlem
+131816,UHF42,304,Upper West Side
+131817,UHF42,305,Upper East Side
+131818,UHF42,306,Chelsea - Clinton
+131819,UHF42,307,Gramercy Park - Murray Hill
+131820,UHF42,308,Greenwich Village - SoHo
+131821,UHF42,309,Union Square - Lower East Side
+131822,UHF42,310,Lower Manhattan
+131823,UHF42,401,Long Island City - Astoria
+131824,UHF42,402,West Queens
+131825,UHF42,403,Flushing - Clearview
+131826,UHF42,404,Bayside - Little Neck
+131827,UHF42,405,Ridgewood - Forest Hills
+131828,UHF42,406,Fresh Meadows
+131829,UHF42,407,Southwest Queens
+131830,UHF42,408,Jamaica
+131831,UHF42,409,Southeast Queens
+131832,UHF42,410,Rockaways
+131833,UHF42,501,Port Richmond
+131834,UHF42,502,Stapleton - St. George
+131835,UHF42,503,Willowbrook
+131836,UHF42,504,South Beach - Tottenville
+134822,Borough,1,Bronx
+134823,Borough,2,Brooklyn
+134824,Borough,3,Manhattan
+134825,Borough,4,Queens
+134826,Borough,5,Staten Island
+134821,Citywide,1,New York City
+134779,UHF42,101,Kingsbridge - Riverdale
+134780,UHF42,102,Northeast Bronx
+134781,UHF42,103,Fordham - Bronx Pk
+134782,UHF42,104,Pelham - Throgs Neck
+134783,UHF42,105,Crotona -Tremont
+134784,UHF42,106,High Bridge - Morrisania
+134785,UHF42,107,Hunts Point - Mott Haven
+134786,UHF42,201,Greenpoint
+134787,UHF42,202,Downtown - Heights - Slope
+134788,UHF42,203,Bedford Stuyvesant - Crown Heights
+134789,UHF42,204,East New York
+134790,UHF42,205,Sunset Park
+134791,UHF42,206,Borough Park
+134792,UHF42,207,East Flatbush - Flatbush
+134793,UHF42,208,Canarsie - Flatlands
+134794,UHF42,209,Bensonhurst - Bay Ridge
+134795,UHF42,210,Coney Island - Sheepshead Bay
+134796,UHF42,211,Williamsburg - Bushwick
+134797,UHF42,301,Washington Heights
+134798,UHF42,302,Central Harlem - Morningside Heights
+134799,UHF42,303,East Harlem
+134800,UHF42,304,Upper West Side
+134801,UHF42,305,Upper East Side
+134802,UHF42,306,Chelsea - Clinton
+134803,UHF42,307,Gramercy Park - Murray Hill
+134804,UHF42,308,Greenwich Village - SoHo
+134805,UHF42,309,Union Square - Lower East Side
+134806,UHF42,310,Lower Manhattan
+134807,UHF42,401,Long Island City - Astoria
+134808,UHF42,402,West Queens
+134809,UHF42,403,Flushing - Clearview
+134810,UHF42,404,Bayside - Little Neck
+134811,UHF42,405,Ridgewood - Forest Hills
+134812,UHF42,406,Fresh Meadows
+134813,UHF42,407,Southwest Queens
+134814,UHF42,408,Jamaica
+134815,UHF42,409,Southeast Queens
+134816,UHF42,410,Rockaways
+134817,UHF42,501,Port Richmond
+134818,UHF42,502,Stapleton - St. George
+134819,UHF42,503,Willowbrook
+134820,UHF42,504,South Beach - Tottenville
+131310,Borough,1,Bronx
+131070,Borough,1,Bronx
+131311,Borough,2,Brooklyn
+131071,Borough,2,Brooklyn
+131312,Borough,3,Manhattan
+131072,Borough,3,Manhattan
+131313,Borough,4,Queens
+131073,Borough,4,Queens
+131314,Borough,5,Staten Island
+131074,Borough,5,Staten Island
+151522,Borough,1,Bronx
+151474,Borough,1,Bronx
+151523,Borough,2,Brooklyn
+151475,Borough,2,Brooklyn
+151524,Borough,3,Manhattan
+151476,Borough,3,Manhattan
+151525,Borough,4,Queens
+151477,Borough,4,Queens
+151526,Borough,5,Staten Island
+151478,Borough,5,Staten Island
+131309,Citywide,1,New York City
+131069,Citywide,1,New York City
+151521,Citywide,1,New York City
+151473,Citywide,1,New York City
+131267,UHF42,101,Kingsbridge - Riverdale
+131027,UHF42,101,Kingsbridge - Riverdale
+131268,UHF42,102,Northeast Bronx
+131028,UHF42,102,Northeast Bronx
+131269,UHF42,103,Fordham - Bronx Pk
+131029,UHF42,103,Fordham - Bronx Pk
+131270,UHF42,104,Pelham - Throgs Neck
+131030,UHF42,104,Pelham - Throgs Neck
+131271,UHF42,105,Crotona -Tremont
+131031,UHF42,105,Crotona -Tremont
+131272,UHF42,106,High Bridge - Morrisania
+131032,UHF42,106,High Bridge - Morrisania
+131273,UHF42,107,Hunts Point - Mott Haven
+131033,UHF42,107,Hunts Point - Mott Haven
+131274,UHF42,201,Greenpoint
+131034,UHF42,201,Greenpoint
+131275,UHF42,202,Downtown - Heights - Slope
+131035,UHF42,202,Downtown - Heights - Slope
+131276,UHF42,203,Bedford Stuyvesant - Crown Heights
+131036,UHF42,203,Bedford Stuyvesant - Crown Heights
+131277,UHF42,204,East New York
+131037,UHF42,204,East New York
+131278,UHF42,205,Sunset Park
+131038,UHF42,205,Sunset Park
+131279,UHF42,206,Borough Park
+131039,UHF42,206,Borough Park
+131280,UHF42,207,East Flatbush - Flatbush
+131040,UHF42,207,East Flatbush - Flatbush
+131281,UHF42,208,Canarsie - Flatlands
+131041,UHF42,208,Canarsie - Flatlands
+131282,UHF42,209,Bensonhurst - Bay Ridge
+131042,UHF42,209,Bensonhurst - Bay Ridge
+131283,UHF42,210,Coney Island - Sheepshead Bay
+131043,UHF42,210,Coney Island - Sheepshead Bay
+131284,UHF42,211,Williamsburg - Bushwick
+131044,UHF42,211,Williamsburg - Bushwick
+131285,UHF42,301,Washington Heights
+131045,UHF42,301,Washington Heights
+131286,UHF42,302,Central Harlem - Morningside Heights
+131046,UHF42,302,Central Harlem - Morningside Heights
+131287,UHF42,303,East Harlem
+131047,UHF42,303,East Harlem
+131288,UHF42,304,Upper West Side
+131048,UHF42,304,Upper West Side
+131289,UHF42,305,Upper East Side
+131049,UHF42,305,Upper East Side
+131290,UHF42,306,Chelsea - Clinton
+131050,UHF42,306,Chelsea - Clinton
+131291,UHF42,307,Gramercy Park - Murray Hill
+131051,UHF42,307,Gramercy Park - Murray Hill
+131292,UHF42,308,Greenwich Village - SoHo
+131052,UHF42,308,Greenwich Village - SoHo
+131293,UHF42,309,Union Square - Lower East Side
+131053,UHF42,309,Union Square - Lower East Side
+131294,UHF42,310,Lower Manhattan
+131054,UHF42,310,Lower Manhattan
+131295,UHF42,401,Long Island City - Astoria
+131055,UHF42,401,Long Island City - Astoria
+131296,UHF42,402,West Queens
+131056,UHF42,402,West Queens
+131297,UHF42,403,Flushing - Clearview
+131057,UHF42,403,Flushing - Clearview
+131298,UHF42,404,Bayside - Little Neck
+131058,UHF42,404,Bayside - Little Neck
+131299,UHF42,405,Ridgewood - Forest Hills
+131059,UHF42,405,Ridgewood - Forest Hills
+131300,UHF42,406,Fresh Meadows
+131060,UHF42,406,Fresh Meadows
+131301,UHF42,407,Southwest Queens
+131061,UHF42,407,Southwest Queens
+131302,UHF42,408,Jamaica
+131062,UHF42,408,Jamaica
+131303,UHF42,409,Southeast Queens
+131063,UHF42,409,Southeast Queens
+131304,UHF42,410,Rockaways
+131064,UHF42,410,Rockaways
+131305,UHF42,501,Port Richmond
+131065,UHF42,501,Port Richmond
+131306,UHF42,502,Stapleton - St. George
+131066,UHF42,502,Stapleton - St. George
+131307,UHF42,503,Willowbrook
+131067,UHF42,503,Willowbrook
+131308,UHF42,504,South Beach - Tottenville
+131068,UHF42,504,South Beach - Tottenville
+151479,UHF42,101,Kingsbridge - Riverdale
+151431,UHF42,101,Kingsbridge - Riverdale
+151480,UHF42,102,Northeast Bronx
+151432,UHF42,102,Northeast Bronx
+151481,UHF42,103,Fordham - Bronx Pk
+151433,UHF42,103,Fordham - Bronx Pk
+151482,UHF42,104,Pelham - Throgs Neck
+151434,UHF42,104,Pelham - Throgs Neck
+151483,UHF42,105,Crotona -Tremont
+151435,UHF42,105,Crotona -Tremont
+151484,UHF42,106,High Bridge - Morrisania
+151436,UHF42,106,High Bridge - Morrisania
+151485,UHF42,107,Hunts Point - Mott Haven
+151437,UHF42,107,Hunts Point - Mott Haven
+151486,UHF42,201,Greenpoint
+151438,UHF42,201,Greenpoint
+151487,UHF42,202,Downtown - Heights - Slope
+151439,UHF42,202,Downtown - Heights - Slope
+151488,UHF42,203,Bedford Stuyvesant - Crown Heights
+151440,UHF42,203,Bedford Stuyvesant - Crown Heights
+151489,UHF42,204,East New York
+151441,UHF42,204,East New York
+151490,UHF42,205,Sunset Park
+151442,UHF42,205,Sunset Park
+151491,UHF42,206,Borough Park
+151443,UHF42,206,Borough Park
+151492,UHF42,207,East Flatbush - Flatbush
+151444,UHF42,207,East Flatbush - Flatbush
+151493,UHF42,208,Canarsie - Flatlands
+151445,UHF42,208,Canarsie - Flatlands
+151494,UHF42,209,Bensonhurst - Bay Ridge
+151446,UHF42,209,Bensonhurst - Bay Ridge
+151495,UHF42,210,Coney Island - Sheepshead Bay
+151447,UHF42,210,Coney Island - Sheepshead Bay
+151496,UHF42,211,Williamsburg - Bushwick
+151448,UHF42,211,Williamsburg - Bushwick
+151497,UHF42,301,Washington Heights
+151449,UHF42,301,Washington Heights
+151498,UHF42,302,Central Harlem - Morningside Heights
+151450,UHF42,302,Central Harlem - Morningside Heights
+151499,UHF42,303,East Harlem
+151451,UHF42,303,East Harlem
+151500,UHF42,304,Upper West Side
+151452,UHF42,304,Upper West Side
+151501,UHF42,305,Upper East Side
+151453,UHF42,305,Upper East Side
+151502,UHF42,306,Chelsea - Clinton
+151454,UHF42,306,Chelsea - Clinton
+151503,UHF42,307,Gramercy Park - Murray Hill
+151455,UHF42,307,Gramercy Park - Murray Hill
+151504,UHF42,308,Greenwich Village - SoHo
+151456,UHF42,308,Greenwich Village - SoHo
+151505,UHF42,309,Union Square - Lower East Side
+151457,UHF42,309,Union Square - Lower East Side
+151506,UHF42,310,Lower Manhattan
+151458,UHF42,310,Lower Manhattan
+151507,UHF42,401,Long Island City - Astoria
+151459,UHF42,401,Long Island City - Astoria
+151508,UHF42,402,West Queens
+151460,UHF42,402,West Queens
+151509,UHF42,403,Flushing - Clearview
+151461,UHF42,403,Flushing - Clearview
+151510,UHF42,404,Bayside - Little Neck
+151462,UHF42,404,Bayside - Little Neck
+151511,UHF42,405,Ridgewood - Forest Hills
+151463,UHF42,405,Ridgewood - Forest Hills
+151512,UHF42,406,Fresh Meadows
+151464,UHF42,406,Fresh Meadows
+151513,UHF42,407,Southwest Queens
+151465,UHF42,407,Southwest Queens
+151514,UHF42,408,Jamaica
+151466,UHF42,408,Jamaica
+151515,UHF42,409,Southeast Queens
+151467,UHF42,409,Southeast Queens
+151516,UHF42,410,Rockaways
+151468,UHF42,410,Rockaways
+151517,UHF42,501,Port Richmond
+151469,UHF42,501,Port Richmond
+151518,UHF42,502,Stapleton - St. George
+151470,UHF42,502,Stapleton - St. George
+151519,UHF42,503,Willowbrook
+151471,UHF42,503,Willowbrook
+151520,UHF42,504,South Beach - Tottenville
+151472,UHF42,504,South Beach - Tottenville
+131358,Borough,1,Bronx
+131166,Borough,1,Bronx
+131359,Borough,2,Brooklyn
+131167,Borough,2,Brooklyn
+131360,Borough,3,Manhattan
+131168,Borough,3,Manhattan
+131361,Borough,4,Queens
+131169,Borough,4,Queens
+131362,Borough,5,Staten Island
+131170,Borough,5,Staten Island
+151618,Borough,1,Bronx
+151570,Borough,1,Bronx
+151619,Borough,2,Brooklyn
+151571,Borough,2,Brooklyn
+151620,Borough,3,Manhattan
+151572,Borough,3,Manhattan
+151621,Borough,4,Queens
+151573,Borough,4,Queens
+151622,Borough,5,Staten Island
+151574,Borough,5,Staten Island
+131357,Citywide,1,New York City
+131165,Citywide,1,New York City
+151617,Citywide,1,New York City
+151569,Citywide,1,New York City
+131315,UHF42,101,Kingsbridge - Riverdale
+131123,UHF42,101,Kingsbridge - Riverdale
+131316,UHF42,102,Northeast Bronx
+131124,UHF42,102,Northeast Bronx
+131317,UHF42,103,Fordham - Bronx Pk
+131125,UHF42,103,Fordham - Bronx Pk
+131318,UHF42,104,Pelham - Throgs Neck
+131126,UHF42,104,Pelham - Throgs Neck
+131319,UHF42,105,Crotona -Tremont
+131127,UHF42,105,Crotona -Tremont
+131320,UHF42,106,High Bridge - Morrisania
+131128,UHF42,106,High Bridge - Morrisania
+131321,UHF42,107,Hunts Point - Mott Haven
+131129,UHF42,107,Hunts Point - Mott Haven
+131322,UHF42,201,Greenpoint
+131130,UHF42,201,Greenpoint
+131323,UHF42,202,Downtown - Heights - Slope
+131131,UHF42,202,Downtown - Heights - Slope
+131324,UHF42,203,Bedford Stuyvesant - Crown Heights
+131132,UHF42,203,Bedford Stuyvesant - Crown Heights
+131325,UHF42,204,East New York
+131133,UHF42,204,East New York
+131326,UHF42,205,Sunset Park
+131134,UHF42,205,Sunset Park
+131327,UHF42,206,Borough Park
+131135,UHF42,206,Borough Park
+131328,UHF42,207,East Flatbush - Flatbush
+131136,UHF42,207,East Flatbush - Flatbush
+131329,UHF42,208,Canarsie - Flatlands
+131137,UHF42,208,Canarsie - Flatlands
+131330,UHF42,209,Bensonhurst - Bay Ridge
+131138,UHF42,209,Bensonhurst - Bay Ridge
+131331,UHF42,210,Coney Island - Sheepshead Bay
+131139,UHF42,210,Coney Island - Sheepshead Bay
+131332,UHF42,211,Williamsburg - Bushwick
+131140,UHF42,211,Williamsburg - Bushwick
+131333,UHF42,301,Washington Heights
+131141,UHF42,301,Washington Heights
+131334,UHF42,302,Central Harlem - Morningside Heights
+131142,UHF42,302,Central Harlem - Morningside Heights
+131335,UHF42,303,East Harlem
+131143,UHF42,303,East Harlem
+131336,UHF42,304,Upper West Side
+131144,UHF42,304,Upper West Side
+131337,UHF42,305,Upper East Side
+131145,UHF42,305,Upper East Side
+131338,UHF42,306,Chelsea - Clinton
+131146,UHF42,306,Chelsea - Clinton
+131339,UHF42,307,Gramercy Park - Murray Hill
+131147,UHF42,307,Gramercy Park - Murray Hill
+131340,UHF42,308,Greenwich Village - SoHo
+131148,UHF42,308,Greenwich Village - SoHo
+131341,UHF42,309,Union Square - Lower East Side
+131149,UHF42,309,Union Square - Lower East Side
+131342,UHF42,310,Lower Manhattan
+131150,UHF42,310,Lower Manhattan
+131343,UHF42,401,Long Island City - Astoria
+131151,UHF42,401,Long Island City - Astoria
+131344,UHF42,402,West Queens
+131152,UHF42,402,West Queens
+131345,UHF42,403,Flushing - Clearview
+131153,UHF42,403,Flushing - Clearview
+131346,UHF42,404,Bayside - Little Neck
+131154,UHF42,404,Bayside - Little Neck
+131347,UHF42,405,Ridgewood - Forest Hills
+131155,UHF42,405,Ridgewood - Forest Hills
+131348,UHF42,406,Fresh Meadows
+131156,UHF42,406,Fresh Meadows
+131349,UHF42,407,Southwest Queens
+131157,UHF42,407,Southwest Queens
+131350,UHF42,408,Jamaica
+131158,UHF42,408,Jamaica
+131351,UHF42,409,Southeast Queens
+131159,UHF42,409,Southeast Queens
+131352,UHF42,410,Rockaways
+131160,UHF42,410,Rockaways
+131353,UHF42,501,Port Richmond
+131161,UHF42,501,Port Richmond
+131354,UHF42,502,Stapleton - St. George
+131162,UHF42,502,Stapleton - St. George
+131355,UHF42,503,Willowbrook
+131163,UHF42,503,Willowbrook
+131356,UHF42,504,South Beach - Tottenville
+131164,UHF42,504,South Beach - Tottenville
+151575,UHF42,101,Kingsbridge - Riverdale
+151527,UHF42,101,Kingsbridge - Riverdale
+151576,UHF42,102,Northeast Bronx
+151528,UHF42,102,Northeast Bronx
+151577,UHF42,103,Fordham - Bronx Pk
+151529,UHF42,103,Fordham - Bronx Pk
+151578,UHF42,104,Pelham - Throgs Neck
+151530,UHF42,104,Pelham - Throgs Neck
+151579,UHF42,105,Crotona -Tremont
+151531,UHF42,105,Crotona -Tremont
+151580,UHF42,106,High Bridge - Morrisania
+151532,UHF42,106,High Bridge - Morrisania
+151581,UHF42,107,Hunts Point - Mott Haven
+151533,UHF42,107,Hunts Point - Mott Haven
+151582,UHF42,201,Greenpoint
+151534,UHF42,201,Greenpoint
+151583,UHF42,202,Downtown - Heights - Slope
+151535,UHF42,202,Downtown - Heights - Slope
+151584,UHF42,203,Bedford Stuyvesant - Crown Heights
+151536,UHF42,203,Bedford Stuyvesant - Crown Heights
+151585,UHF42,204,East New York
+151537,UHF42,204,East New York
+151586,UHF42,205,Sunset Park
+151538,UHF42,205,Sunset Park
+151587,UHF42,206,Borough Park
+151539,UHF42,206,Borough Park
+151588,UHF42,207,East Flatbush - Flatbush
+151540,UHF42,207,East Flatbush - Flatbush
+151589,UHF42,208,Canarsie - Flatlands
+151541,UHF42,208,Canarsie - Flatlands
+151590,UHF42,209,Bensonhurst - Bay Ridge
+151542,UHF42,209,Bensonhurst - Bay Ridge
+151591,UHF42,210,Coney Island - Sheepshead Bay
+151543,UHF42,210,Coney Island - Sheepshead Bay
+151592,UHF42,211,Williamsburg - Bushwick
+151544,UHF42,211,Williamsburg - Bushwick
+151593,UHF42,301,Washington Heights
+151545,UHF42,301,Washington Heights
+151594,UHF42,302,Central Harlem - Morningside Heights
+151546,UHF42,302,Central Harlem - Morningside Heights
+151595,UHF42,303,East Harlem
+151547,UHF42,303,East Harlem
+151596,UHF42,304,Upper West Side
+151548,UHF42,304,Upper West Side
+151597,UHF42,305,Upper East Side
+151549,UHF42,305,Upper East Side
+151598,UHF42,306,Chelsea - Clinton
+151550,UHF42,306,Chelsea - Clinton
+151599,UHF42,307,Gramercy Park - Murray Hill
+151551,UHF42,307,Gramercy Park - Murray Hill
+151600,UHF42,308,Greenwich Village - SoHo
+151552,UHF42,308,Greenwich Village - SoHo
+151601,UHF42,309,Union Square - Lower East Side
+151553,UHF42,309,Union Square - Lower East Side
+151602,UHF42,310,Lower Manhattan
+151554,UHF42,310,Lower Manhattan
+151603,UHF42,401,Long Island City - Astoria
+151555,UHF42,401,Long Island City - Astoria
+151604,UHF42,402,West Queens
+151556,UHF42,402,West Queens
+151605,UHF42,403,Flushing - Clearview
+151557,UHF42,403,Flushing - Clearview
+151606,UHF42,404,Bayside - Little Neck
+151558,UHF42,404,Bayside - Little Neck
+151607,UHF42,405,Ridgewood - Forest Hills
+151559,UHF42,405,Ridgewood - Forest Hills
+151608,UHF42,406,Fresh Meadows
+151560,UHF42,406,Fresh Meadows
+151609,UHF42,407,Southwest Queens
+151561,UHF42,407,Southwest Queens
+151610,UHF42,408,Jamaica
+151562,UHF42,408,Jamaica
+151611,UHF42,409,Southeast Queens
+151563,UHF42,409,Southeast Queens
+151612,UHF42,410,Rockaways
+151564,UHF42,410,Rockaways
+151613,UHF42,501,Port Richmond
+151565,UHF42,501,Port Richmond
+151614,UHF42,502,Stapleton - St. George
+151566,UHF42,502,Stapleton - St. George
+151615,UHF42,503,Willowbrook
+151567,UHF42,503,Willowbrook
+151616,UHF42,504,South Beach - Tottenville
+151568,UHF42,504,South Beach - Tottenville
+131022,Borough,1,Bronx
+131023,Borough,2,Brooklyn
+131024,Borough,3,Manhattan
+131025,Borough,4,Queens
+131026,Borough,5,Staten Island
+151426,Borough,1,Bronx
+151427,Borough,2,Brooklyn
+151428,Borough,3,Manhattan
+151429,Borough,4,Queens
+151430,Borough,5,Staten Island
+131021,Citywide,1,New York City
+151425,Citywide,1,New York City
+130979,UHF42,101,Kingsbridge - Riverdale
+130980,UHF42,102,Northeast Bronx
+130981,UHF42,103,Fordham - Bronx Pk
+130982,UHF42,104,Pelham - Throgs Neck
+130983,UHF42,105,Crotona -Tremont
+130984,UHF42,106,High Bridge - Morrisania
+130985,UHF42,107,Hunts Point - Mott Haven
+130986,UHF42,201,Greenpoint
+130987,UHF42,202,Downtown - Heights - Slope
+130988,UHF42,203,Bedford Stuyvesant - Crown Heights
+130989,UHF42,204,East New York
+130990,UHF42,205,Sunset Park
+130991,UHF42,206,Borough Park
+130992,UHF42,207,East Flatbush - Flatbush
+130993,UHF42,208,Canarsie - Flatlands
+130994,UHF42,209,Bensonhurst - Bay Ridge
+130995,UHF42,210,Coney Island - Sheepshead Bay
+130996,UHF42,211,Williamsburg - Bushwick
+130997,UHF42,301,Washington Heights
+130998,UHF42,302,Central Harlem - Morningside Heights
+130999,UHF42,303,East Harlem
+131000,UHF42,304,Upper West Side
+131001,UHF42,305,Upper East Side
+131002,UHF42,306,Chelsea - Clinton
+131003,UHF42,307,Gramercy Park - Murray Hill
+131004,UHF42,308,Greenwich Village - SoHo
+131005,UHF42,309,Union Square - Lower East Side
+131006,UHF42,310,Lower Manhattan
+131007,UHF42,401,Long Island City - Astoria
+131008,UHF42,402,West Queens
+131009,UHF42,403,Flushing - Clearview
+131010,UHF42,404,Bayside - Little Neck
+131011,UHF42,405,Ridgewood - Forest Hills
+131012,UHF42,406,Fresh Meadows
+131013,UHF42,407,Southwest Queens
+131014,UHF42,408,Jamaica
+131015,UHF42,409,Southeast Queens
+131016,UHF42,410,Rockaways
+131017,UHF42,501,Port Richmond
+131018,UHF42,502,Stapleton - St. George
+131019,UHF42,503,Willowbrook
+131020,UHF42,504,South Beach - Tottenville
+151383,UHF42,101,Kingsbridge - Riverdale
+151384,UHF42,102,Northeast Bronx
+151385,UHF42,103,Fordham - Bronx Pk
+151386,UHF42,104,Pelham - Throgs Neck
+151387,UHF42,105,Crotona -Tremont
+151388,UHF42,106,High Bridge - Morrisania
+151389,UHF42,107,Hunts Point - Mott Haven
+151390,UHF42,201,Greenpoint
+151391,UHF42,202,Downtown - Heights - Slope
+151392,UHF42,203,Bedford Stuyvesant - Crown Heights
+151393,UHF42,204,East New York
+151394,UHF42,205,Sunset Park
+151395,UHF42,206,Borough Park
+151396,UHF42,207,East Flatbush - Flatbush
+151397,UHF42,208,Canarsie - Flatlands
+151398,UHF42,209,Bensonhurst - Bay Ridge
+151399,UHF42,210,Coney Island - Sheepshead Bay
+151400,UHF42,211,Williamsburg - Bushwick
+151401,UHF42,301,Washington Heights
+151402,UHF42,302,Central Harlem - Morningside Heights
+151403,UHF42,303,East Harlem
+151404,UHF42,304,Upper West Side
+151405,UHF42,305,Upper East Side
+151406,UHF42,306,Chelsea - Clinton
+151407,UHF42,307,Gramercy Park - Murray Hill
+151408,UHF42,308,Greenwich Village - SoHo
+151409,UHF42,309,Union Square - Lower East Side
+151410,UHF42,310,Lower Manhattan
+151411,UHF42,401,Long Island City - Astoria
+151412,UHF42,402,West Queens
+151413,UHF42,403,Flushing - Clearview
+151414,UHF42,404,Bayside - Little Neck
+151415,UHF42,405,Ridgewood - Forest Hills
+151416,UHF42,406,Fresh Meadows
+151417,UHF42,407,Southwest Queens
+151418,UHF42,408,Jamaica
+151419,UHF42,409,Southeast Queens
+151420,UHF42,410,Rockaways
+151421,UHF42,501,Port Richmond
+151422,UHF42,502,Stapleton - St. George
+151423,UHF42,503,Willowbrook
+151424,UHF42,504,South Beach - Tottenville
+131262,Borough,1,Bronx
+130830,Borough,1,Bronx
+131263,Borough,2,Brooklyn
+130831,Borough,2,Brooklyn
+131264,Borough,3,Manhattan
+130832,Borough,3,Manhattan
+131265,Borough,4,Queens
+130833,Borough,4,Queens
+131266,Borough,5,Staten Island
+130834,Borough,5,Staten Island
+131406,Borough,1,Bronx
+131454,Borough,1,Bronx
+131407,Borough,2,Brooklyn
+131455,Borough,2,Brooklyn
+131408,Borough,3,Manhattan
+131456,Borough,3,Manhattan
+131409,Borough,4,Queens
+131457,Borough,4,Queens
+131410,Borough,5,Staten Island
+131458,Borough,5,Staten Island
+131261,Citywide,1,New York City
+130829,Citywide,1,New York City
+131405,Citywide,1,New York City
+131453,Citywide,1,New York City
+131219,UHF42,101,Kingsbridge - Riverdale
+130787,UHF42,101,Kingsbridge - Riverdale
+131220,UHF42,102,Northeast Bronx
+130788,UHF42,102,Northeast Bronx
+131221,UHF42,103,Fordham - Bronx Pk
+130789,UHF42,103,Fordham - Bronx Pk
+131222,UHF42,104,Pelham - Throgs Neck
+130790,UHF42,104,Pelham - Throgs Neck
+131223,UHF42,105,Crotona -Tremont
+130791,UHF42,105,Crotona -Tremont
+131224,UHF42,106,High Bridge - Morrisania
+130792,UHF42,106,High Bridge - Morrisania
+131225,UHF42,107,Hunts Point - Mott Haven
+130793,UHF42,107,Hunts Point - Mott Haven
+131226,UHF42,201,Greenpoint
+130794,UHF42,201,Greenpoint
+131227,UHF42,202,Downtown - Heights - Slope
+130795,UHF42,202,Downtown - Heights - Slope
+131228,UHF42,203,Bedford Stuyvesant - Crown Heights
+130796,UHF42,203,Bedford Stuyvesant - Crown Heights
+131229,UHF42,204,East New York
+130797,UHF42,204,East New York
+131230,UHF42,205,Sunset Park
+130798,UHF42,205,Sunset Park
+131231,UHF42,206,Borough Park
+130799,UHF42,206,Borough Park
+131232,UHF42,207,East Flatbush - Flatbush
+130800,UHF42,207,East Flatbush - Flatbush
+131233,UHF42,208,Canarsie - Flatlands
+130801,UHF42,208,Canarsie - Flatlands
+131234,UHF42,209,Bensonhurst - Bay Ridge
+130802,UHF42,209,Bensonhurst - Bay Ridge
+131235,UHF42,210,Coney Island - Sheepshead Bay
+130803,UHF42,210,Coney Island - Sheepshead Bay
+131236,UHF42,211,Williamsburg - Bushwick
+130804,UHF42,211,Williamsburg - Bushwick
+131237,UHF42,301,Washington Heights
+130805,UHF42,301,Washington Heights
+131238,UHF42,302,Central Harlem - Morningside Heights
+130806,UHF42,302,Central Harlem - Morningside Heights
+131239,UHF42,303,East Harlem
+130807,UHF42,303,East Harlem
+131240,UHF42,304,Upper West Side
+130808,UHF42,304,Upper West Side
+131241,UHF42,305,Upper East Side
+130809,UHF42,305,Upper East Side
+131242,UHF42,306,Chelsea - Clinton
+130810,UHF42,306,Chelsea - Clinton
+131243,UHF42,307,Gramercy Park - Murray Hill
+130811,UHF42,307,Gramercy Park - Murray Hill
+131244,UHF42,308,Greenwich Village - SoHo
+130812,UHF42,308,Greenwich Village - SoHo
+131245,UHF42,309,Union Square - Lower East Side
+130813,UHF42,309,Union Square - Lower East Side
+131246,UHF42,310,Lower Manhattan
+130814,UHF42,310,Lower Manhattan
+131247,UHF42,401,Long Island City - Astoria
+130815,UHF42,401,Long Island City - Astoria
+131248,UHF42,402,West Queens
+130816,UHF42,402,West Queens
+131249,UHF42,403,Flushing - Clearview
+130817,UHF42,403,Flushing - Clearview
+131250,UHF42,404,Bayside - Little Neck
+130818,UHF42,404,Bayside - Little Neck
+131251,UHF42,405,Ridgewood - Forest Hills
+130819,UHF42,405,Ridgewood - Forest Hills
+131396,UHF42,406,Fresh Meadows
+131252,UHF42,406,Fresh Meadows
+130820,UHF42,406,Fresh Meadows
+131253,UHF42,407,Southwest Queens
+130821,UHF42,407,Southwest Queens
+131254,UHF42,408,Jamaica
+130822,UHF42,408,Jamaica
+131255,UHF42,409,Southeast Queens
+130823,UHF42,409,Southeast Queens
+131256,UHF42,410,Rockaways
+130824,UHF42,410,Rockaways
+131257,UHF42,501,Port Richmond
+130825,UHF42,501,Port Richmond
+131258,UHF42,502,Stapleton - St. George
+130826,UHF42,502,Stapleton - St. George
+131259,UHF42,503,Willowbrook
+130827,UHF42,503,Willowbrook
+131260,UHF42,504,South Beach - Tottenville
+130828,UHF42,504,South Beach - Tottenville
+131363,UHF42,101,Kingsbridge - Riverdale
+131411,UHF42,101,Kingsbridge - Riverdale
+131364,UHF42,102,Northeast Bronx
+131412,UHF42,102,Northeast Bronx
+131365,UHF42,103,Fordham - Bronx Pk
+131413,UHF42,103,Fordham - Bronx Pk
+131366,UHF42,104,Pelham - Throgs Neck
+131414,UHF42,104,Pelham - Throgs Neck
+131367,UHF42,105,Crotona -Tremont
+131415,UHF42,105,Crotona -Tremont
+131368,UHF42,106,High Bridge - Morrisania
+131416,UHF42,106,High Bridge - Morrisania
+131369,UHF42,107,Hunts Point - Mott Haven
+131417,UHF42,107,Hunts Point - Mott Haven
+131370,UHF42,201,Greenpoint
+131418,UHF42,201,Greenpoint
+131371,UHF42,202,Downtown - Heights - Slope
+131419,UHF42,202,Downtown - Heights - Slope
+131372,UHF42,203,Bedford Stuyvesant - Crown Heights
+131420,UHF42,203,Bedford Stuyvesant - Crown Heights
+131373,UHF42,204,East New York
+131421,UHF42,204,East New York
+131374,UHF42,205,Sunset Park
+131422,UHF42,205,Sunset Park
+131375,UHF42,206,Borough Park
+131423,UHF42,206,Borough Park
+131376,UHF42,207,East Flatbush - Flatbush
+131424,UHF42,207,East Flatbush - Flatbush
+131377,UHF42,208,Canarsie - Flatlands
+131425,UHF42,208,Canarsie - Flatlands
+131378,UHF42,209,Bensonhurst - Bay Ridge
+131426,UHF42,209,Bensonhurst - Bay Ridge
+131379,UHF42,210,Coney Island - Sheepshead Bay
+131427,UHF42,210,Coney Island - Sheepshead Bay
+131380,UHF42,211,Williamsburg - Bushwick
+131428,UHF42,211,Williamsburg - Bushwick
+131381,UHF42,301,Washington Heights
+131429,UHF42,301,Washington Heights
+131382,UHF42,302,Central Harlem - Morningside Heights
+131430,UHF42,302,Central Harlem - Morningside Heights
+131383,UHF42,303,East Harlem
+131431,UHF42,303,East Harlem
+131384,UHF42,304,Upper West Side
+131432,UHF42,304,Upper West Side
+131385,UHF42,305,Upper East Side
+131433,UHF42,305,Upper East Side
+131386,UHF42,306,Chelsea - Clinton
+131434,UHF42,306,Chelsea - Clinton
+131387,UHF42,307,Gramercy Park - Murray Hill
+131435,UHF42,307,Gramercy Park - Murray Hill
+131600,Borough,3,Manhattan
+131388,UHF42,308,Greenwich Village - SoHo
+131436,UHF42,308,Greenwich Village - SoHo
+131389,UHF42,309,Union Square - Lower East Side
+131437,UHF42,309,Union Square - Lower East Side
+131390,UHF42,310,Lower Manhattan
+131438,UHF42,310,Lower Manhattan
+131391,UHF42,401,Long Island City - Astoria
+131439,UHF42,401,Long Island City - Astoria
+131392,UHF42,402,West Queens
+131440,UHF42,402,West Queens
+131393,UHF42,403,Flushing - Clearview
+131441,UHF42,403,Flushing - Clearview
+131394,UHF42,404,Bayside - Little Neck
+131442,UHF42,404,Bayside - Little Neck
+131395,UHF42,405,Ridgewood - Forest Hills
+131443,UHF42,405,Ridgewood - Forest Hills
+131444,UHF42,406,Fresh Meadows
+131397,UHF42,407,Southwest Queens
+131445,UHF42,407,Southwest Queens
+131398,UHF42,408,Jamaica
+131446,UHF42,408,Jamaica
+131399,UHF42,409,Southeast Queens
+131447,UHF42,409,Southeast Queens
+131400,UHF42,410,Rockaways
+131448,UHF42,410,Rockaways
+131401,UHF42,501,Port Richmond
+131449,UHF42,501,Port Richmond
+131402,UHF42,502,Stapleton - St. George
+131450,UHF42,502,Stapleton - St. George
+131403,UHF42,503,Willowbrook
+131451,UHF42,503,Willowbrook
+131404,UHF42,504,South Beach - Tottenville
+131452,UHF42,504,South Beach - Tottenville
+130974,Borough,1,Bronx
+130975,Borough,2,Brooklyn
+130976,Borough,3,Manhattan
+130977,Borough,4,Queens
+130978,Borough,5,Staten Island
+131502,Borough,1,Bronx
+131503,Borough,2,Brooklyn
+131504,Borough,3,Manhattan
+131505,Borough,4,Queens
+131506,Borough,5,Staten Island
+130973,Citywide,1,New York City
+131501,Citywide,1,New York City
+130931,UHF42,101,Kingsbridge - Riverdale
+130932,UHF42,102,Northeast Bronx
+130933,UHF42,103,Fordham - Bronx Pk
+130934,UHF42,104,Pelham - Throgs Neck
+130935,UHF42,105,Crotona -Tremont
+130936,UHF42,106,High Bridge - Morrisania
+130937,UHF42,107,Hunts Point - Mott Haven
+130359,UHF42,105,Crotona -Tremont
+130938,UHF42,201,Greenpoint
+130939,UHF42,202,Downtown - Heights - Slope
+130940,UHF42,203,Bedford Stuyvesant - Crown Heights
+130941,UHF42,204,East New York
+130942,UHF42,205,Sunset Park
+130943,UHF42,206,Borough Park
+130944,UHF42,207,East Flatbush - Flatbush
+130945,UHF42,208,Canarsie - Flatlands
+130946,UHF42,209,Bensonhurst - Bay Ridge
+130947,UHF42,210,Coney Island - Sheepshead Bay
+130948,UHF42,211,Williamsburg - Bushwick
+130949,UHF42,301,Washington Heights
+130950,UHF42,302,Central Harlem - Morningside Heights
+130951,UHF42,303,East Harlem
+130952,UHF42,304,Upper West Side
+130953,UHF42,305,Upper East Side
+130954,UHF42,306,Chelsea - Clinton
+130955,UHF42,307,Gramercy Park - Murray Hill
+130956,UHF42,308,Greenwich Village - SoHo
+130957,UHF42,309,Union Square - Lower East Side
+130958,UHF42,310,Lower Manhattan
+130959,UHF42,401,Long Island City - Astoria
+130960,UHF42,402,West Queens
+130961,UHF42,403,Flushing - Clearview
+130962,UHF42,404,Bayside - Little Neck
+130963,UHF42,405,Ridgewood - Forest Hills
+130964,UHF42,406,Fresh Meadows
+130965,UHF42,407,Southwest Queens
+130966,UHF42,408,Jamaica
+130967,UHF42,409,Southeast Queens
+130968,UHF42,410,Rockaways
+130969,UHF42,501,Port Richmond
+130970,UHF42,502,Stapleton - St. George
+130971,UHF42,503,Willowbrook
+130972,UHF42,504,South Beach - Tottenville
+131459,UHF42,101,Kingsbridge - Riverdale
+131460,UHF42,102,Northeast Bronx
+131461,UHF42,103,Fordham - Bronx Pk
+131462,UHF42,104,Pelham - Throgs Neck
+131463,UHF42,105,Crotona -Tremont
+131464,UHF42,106,High Bridge - Morrisania
+131465,UHF42,107,Hunts Point - Mott Haven
+131466,UHF42,201,Greenpoint
+131467,UHF42,202,Downtown - Heights - Slope
+131468,UHF42,203,Bedford Stuyvesant - Crown Heights
+131469,UHF42,204,East New York
+131470,UHF42,205,Sunset Park
+131471,UHF42,206,Borough Park
+131472,UHF42,207,East Flatbush - Flatbush
+131473,UHF42,208,Canarsie - Flatlands
+131474,UHF42,209,Bensonhurst - Bay Ridge
+131475,UHF42,210,Coney Island - Sheepshead Bay
+131476,UHF42,211,Williamsburg - Bushwick
+130360,UHF42,106,High Bridge - Morrisania
+131477,UHF42,301,Washington Heights
+131478,UHF42,302,Central Harlem - Morningside Heights
+131479,UHF42,303,East Harlem
+131480,UHF42,304,Upper West Side
+131481,UHF42,305,Upper East Side
+131482,UHF42,306,Chelsea - Clinton
+131483,UHF42,307,Gramercy Park - Murray Hill
+131484,UHF42,308,Greenwich Village - SoHo
+131485,UHF42,309,Union Square - Lower East Side
+131486,UHF42,310,Lower Manhattan
+131487,UHF42,401,Long Island City - Astoria
+131488,UHF42,402,West Queens
+131489,UHF42,403,Flushing - Clearview
+131490,UHF42,404,Bayside - Little Neck
+131491,UHF42,405,Ridgewood - Forest Hills
+131492,UHF42,406,Fresh Meadows
+131493,UHF42,407,Southwest Queens
+131494,UHF42,408,Jamaica
+131495,UHF42,409,Southeast Queens
+131496,UHF42,410,Rockaways
+131497,UHF42,501,Port Richmond
+131498,UHF42,502,Stapleton - St. George
+131499,UHF42,503,Willowbrook
+131500,UHF42,504,South Beach - Tottenville
+130782,Borough,1,Bronx
+130783,Borough,2,Brooklyn
+130784,Borough,3,Manhattan
+130785,Borough,4,Queens
+130786,Borough,5,Staten Island
+131598,Borough,1,Bronx
+131599,Borough,2,Brooklyn
+131601,Borough,4,Queens
+131602,Borough,5,Staten Island
+130781,Citywide,1,New York City
+131597,Citywide,1,New York City
+130355,UHF42,101,Kingsbridge - Riverdale
+130356,UHF42,102,Northeast Bronx
+130357,UHF42,103,Fordham - Bronx Pk
+130358,UHF42,104,Pelham - Throgs Neck
+130361,UHF42,107,Hunts Point - Mott Haven
+130362,UHF42,201,Greenpoint
+130363,UHF42,202,Downtown - Heights - Slope
+130364,UHF42,203,Bedford Stuyvesant - Crown Heights
+130365,UHF42,204,East New York
+130366,UHF42,205,Sunset Park
+130367,UHF42,206,Borough Park
+130368,UHF42,207,East Flatbush - Flatbush
+130369,UHF42,208,Canarsie - Flatlands
+130370,UHF42,209,Bensonhurst - Bay Ridge
+130371,UHF42,210,Coney Island - Sheepshead Bay
+130372,UHF42,211,Williamsburg - Bushwick
+130373,UHF42,301,Washington Heights
+130374,UHF42,302,Central Harlem - Morningside Heights
+130375,UHF42,303,East Harlem
+130376,UHF42,304,Upper West Side
+130377,UHF42,305,Upper East Side
+130378,UHF42,306,Chelsea - Clinton
+130379,UHF42,307,Gramercy Park - Murray Hill
+130380,UHF42,308,Greenwich Village - SoHo
+130381,UHF42,309,Union Square - Lower East Side
+130382,UHF42,310,Lower Manhattan
+130383,UHF42,401,Long Island City - Astoria
+130384,UHF42,402,West Queens
+130385,UHF42,403,Flushing - Clearview
+130386,UHF42,404,Bayside - Little Neck
+130387,UHF42,405,Ridgewood - Forest Hills
+130388,UHF42,406,Fresh Meadows
+130389,UHF42,407,Southwest Queens
+130390,UHF42,408,Jamaica
+130391,UHF42,409,Southeast Queens
+130392,UHF42,410,Rockaways
+130393,UHF42,501,Port Richmond
+130394,UHF42,502,Stapleton - St. George
+130395,UHF42,503,Willowbrook
+130396,UHF42,504,South Beach - Tottenville
+131555,UHF42,101,Kingsbridge - Riverdale
+131556,UHF42,102,Northeast Bronx
+131557,UHF42,103,Fordham - Bronx Pk
+131558,UHF42,104,Pelham - Throgs Neck
+131559,UHF42,105,Crotona -Tremont
+131560,UHF42,106,High Bridge - Morrisania
+131561,UHF42,107,Hunts Point - Mott Haven
+131562,UHF42,201,Greenpoint
+131563,UHF42,202,Downtown - Heights - Slope
+131564,UHF42,203,Bedford Stuyvesant - Crown Heights
+131565,UHF42,204,East New York
+131566,UHF42,205,Sunset Park
+131567,UHF42,206,Borough Park
+131568,UHF42,207,East Flatbush - Flatbush
+131569,UHF42,208,Canarsie - Flatlands
+131570,UHF42,209,Bensonhurst - Bay Ridge
+131571,UHF42,210,Coney Island - Sheepshead Bay
+131572,UHF42,211,Williamsburg - Bushwick
+131573,UHF42,301,Washington Heights
+131574,UHF42,302,Central Harlem - Morningside Heights
+131575,UHF42,303,East Harlem
+131576,UHF42,304,Upper West Side
+131577,UHF42,305,Upper East Side
+131578,UHF42,306,Chelsea - Clinton
+131579,UHF42,307,Gramercy Park - Murray Hill
+131580,UHF42,308,Greenwich Village - SoHo
+131581,UHF42,309,Union Square - Lower East Side
+131582,UHF42,310,Lower Manhattan
+131583,UHF42,401,Long Island City - Astoria
+131584,UHF42,402,West Queens
+131585,UHF42,403,Flushing - Clearview
+131586,UHF42,404,Bayside - Little Neck
+131587,UHF42,405,Ridgewood - Forest Hills
+131588,UHF42,406,Fresh Meadows
+131589,UHF42,407,Southwest Queens
+131590,UHF42,408,Jamaica
+131591,UHF42,409,Southeast Queens
+131592,UHF42,410,Rockaways
+131593,UHF42,501,Port Richmond
+131594,UHF42,502,Stapleton - St. George
+131595,UHF42,503,Willowbrook
+131596,UHF42,504,South Beach - Tottenville
+130926,Borough,1,Bronx
+130927,Borough,2,Brooklyn
+130928,Borough,3,Manhattan
+130929,Borough,4,Queens
+130930,Borough,5,Staten Island
+131550,Borough,1,Bronx
+131551,Borough,2,Brooklyn
+131552,Borough,3,Manhattan
+131553,Borough,4,Queens
+131554,Borough,5,Staten Island
+130925,Citywide,1,New York City
+131549,Citywide,1,New York City
+130883,UHF42,101,Kingsbridge - Riverdale
+130884,UHF42,102,Northeast Bronx
+130885,UHF42,103,Fordham - Bronx Pk
+130886,UHF42,104,Pelham - Throgs Neck
+130887,UHF42,105,Crotona -Tremont
+130888,UHF42,106,High Bridge - Morrisania
+130889,UHF42,107,Hunts Point - Mott Haven
+130890,UHF42,201,Greenpoint
+130891,UHF42,202,Downtown - Heights - Slope
+130892,UHF42,203,Bedford Stuyvesant - Crown Heights
+130893,UHF42,204,East New York
+130894,UHF42,205,Sunset Park
+130895,UHF42,206,Borough Park
+130896,UHF42,207,East Flatbush - Flatbush
+151668,Borough,3,Manhattan
+130897,UHF42,208,Canarsie - Flatlands
+130898,UHF42,209,Bensonhurst - Bay Ridge
+130899,UHF42,210,Coney Island - Sheepshead Bay
+130900,UHF42,211,Williamsburg - Bushwick
+130901,UHF42,301,Washington Heights
+130902,UHF42,302,Central Harlem - Morningside Heights
+130903,UHF42,303,East Harlem
+130904,UHF42,304,Upper West Side
+130905,UHF42,305,Upper East Side
+130906,UHF42,306,Chelsea - Clinton
+130907,UHF42,307,Gramercy Park - Murray Hill
+130908,UHF42,308,Greenwich Village - SoHo
+130909,UHF42,309,Union Square - Lower East Side
+130910,UHF42,310,Lower Manhattan
+130911,UHF42,401,Long Island City - Astoria
+130912,UHF42,402,West Queens
+130913,UHF42,403,Flushing - Clearview
+130914,UHF42,404,Bayside - Little Neck
+130915,UHF42,405,Ridgewood - Forest Hills
+130916,UHF42,406,Fresh Meadows
+130917,UHF42,407,Southwest Queens
+130918,UHF42,408,Jamaica
+130919,UHF42,409,Southeast Queens
+130920,UHF42,410,Rockaways
+130921,UHF42,501,Port Richmond
+130922,UHF42,502,Stapleton - St. George
+130923,UHF42,503,Willowbrook
+130924,UHF42,504,South Beach - Tottenville
+131507,UHF42,101,Kingsbridge - Riverdale
+131508,UHF42,102,Northeast Bronx
+131509,UHF42,103,Fordham - Bronx Pk
+131510,UHF42,104,Pelham - Throgs Neck
+131511,UHF42,105,Crotona -Tremont
+131512,UHF42,106,High Bridge - Morrisania
+131513,UHF42,107,Hunts Point - Mott Haven
+131514,UHF42,201,Greenpoint
+131515,UHF42,202,Downtown - Heights - Slope
+131516,UHF42,203,Bedford Stuyvesant - Crown Heights
+131517,UHF42,204,East New York
+131518,UHF42,205,Sunset Park
+131519,UHF42,206,Borough Park
+131520,UHF42,207,East Flatbush - Flatbush
+131521,UHF42,208,Canarsie - Flatlands
+131522,UHF42,209,Bensonhurst - Bay Ridge
+131523,UHF42,210,Coney Island - Sheepshead Bay
+131524,UHF42,211,Williamsburg - Bushwick
+131525,UHF42,301,Washington Heights
+131526,UHF42,302,Central Harlem - Morningside Heights
+131527,UHF42,303,East Harlem
+131528,UHF42,304,Upper West Side
+131529,UHF42,305,Upper East Side
+131530,UHF42,306,Chelsea - Clinton
+131531,UHF42,307,Gramercy Park - Murray Hill
+131532,UHF42,308,Greenwich Village - SoHo
+131533,UHF42,309,Union Square - Lower East Side
+131534,UHF42,310,Lower Manhattan
+131535,UHF42,401,Long Island City - Astoria
+131536,UHF42,402,West Queens
+131537,UHF42,403,Flushing - Clearview
+131538,UHF42,404,Bayside - Little Neck
+131539,UHF42,405,Ridgewood - Forest Hills
+131540,UHF42,406,Fresh Meadows
+131541,UHF42,407,Southwest Queens
+131542,UHF42,408,Jamaica
+131543,UHF42,409,Southeast Queens
+131544,UHF42,410,Rockaways
+131545,UHF42,501,Port Richmond
+131546,UHF42,502,Stapleton - St. George
+131547,UHF42,503,Willowbrook
+131548,UHF42,504,South Beach - Tottenville
+151666,Borough,1,Bronx
+151667,Borough,2,Brooklyn
+151669,Borough,4,Queens
+151670,Borough,5,Staten Island
+154560,CD,101,Battery Park City
+154561,CD,102,Greenwich Village
+154562,CD,103,Lower East Side
+154563,CD,104,Chelsea
+154564,CD,105,Midtown Business District
+154565,CD,106,Stuyvesant Town
+154566,CD,107,West Side
+154567,CD,108,Upper East Side
+154568,CD,109,Manhattanville
+154569,CD,110,Central Harlem
+154570,CD,111,East Harlem
+154571,CD,112,Washington Heights
+154572,CD,201,Melrose
+154573,CD,202,Hunts Point
+154574,CD,203,Morrisania
+154575,CD,204,Highbridge
+154576,CD,205,University Hts.
+154577,CD,206,East Tremont
+154578,CD,207,Bedford Park
+154579,CD,208,Riverdale
+154580,CD,209,Soundview
+154581,CD,210,Throgs Nk.
+154582,CD,211,Pelham Parkway
+154583,CD,212,Wakefield
+154584,CD,301,Williamsburg
+154585,CD,302,Brooklyn Heights
+154586,CD,303,Bedford Stuyvesant
+154587,CD,304,Bushwick
+154588,CD,305,East New York
+154589,CD,306,Park Slope
+154590,CD,307,Sunset Park
+154591,CD,308,Crown Heights North
+154592,CD,309,Crown Heights South
+154593,CD,310,Bay Ridge
+154594,CD,311,Bensonhurst
+154595,CD,312,Borough Park
+154596,CD,313,Coney Island
+154597,CD,314,Flatbush
+154598,CD,315,Sheepshead Bay
+154599,CD,316,Brownsville
+154600,CD,317,East Flatbush
+154601,CD,318,Canarsie
+154602,CD,401,Astoria
+154603,CD,402,Sunnyside
+154604,CD,403,Jackson Heights
+154605,CD,404,Elmhurst
+154606,CD,405,Ridgewood
+154607,CD,406,Forest Hills
+154608,CD,407,Flushing Bay Terrace
+154609,CD,408,Fresh Meadows
+154610,CD,409,Woodhaven
+154611,CD,410,Ozone Park
+154612,CD,411,Bayside
+154613,CD,412,Jamaica
+154614,CD,413,Queens Village
+154615,CD,414,The Rockaways
+154616,CD,501,Stapleton
+154617,CD,502,New Springville
+154618,CD,503,Tottenville
+151665,Citywide,1,New York City
+151623,UHF42,101,Kingsbridge - Riverdale
+151624,UHF42,102,Northeast Bronx
+151625,UHF42,103,Fordham - Bronx Pk
+151626,UHF42,104,Pelham - Throgs Neck
+151627,UHF42,105,Crotona -Tremont
+151628,UHF42,106,High Bridge - Morrisania
+151629,UHF42,107,Hunts Point - Mott Haven
+151630,UHF42,201,Greenpoint
+151631,UHF42,202,Downtown - Heights - Slope
+151632,UHF42,203,Bedford Stuyvesant - Crown Heights
+151633,UHF42,204,East New York
+151634,UHF42,205,Sunset Park
+151635,UHF42,206,Borough Park
+151636,UHF42,207,East Flatbush - Flatbush
+151637,UHF42,208,Canarsie - Flatlands
+151638,UHF42,209,Bensonhurst - Bay Ridge
+151639,UHF42,210,Coney Island - Sheepshead Bay
+151640,UHF42,211,Williamsburg - Bushwick
+151641,UHF42,301,Washington Heights
+151642,UHF42,302,Central Harlem - Morningside Heights
+151643,UHF42,303,East Harlem
+151644,UHF42,304,Upper West Side
+151645,UHF42,305,Upper East Side
+151646,UHF42,306,Chelsea - Clinton
+151647,UHF42,307,Gramercy Park - Murray Hill
+151648,UHF42,308,Greenwich Village - SoHo
+151649,UHF42,309,Union Square - Lower East Side
+151650,UHF42,310,Lower Manhattan
+151651,UHF42,401,Long Island City - Astoria
+151652,UHF42,402,West Queens
+151653,UHF42,403,Flushing - Clearview
+151654,UHF42,404,Bayside - Little Neck
+151655,UHF42,405,Ridgewood - Forest Hills
+151656,UHF42,406,Fresh Meadows
+151657,UHF42,407,Southwest Queens
+151658,UHF42,408,Jamaica
+151659,UHF42,409,Southeast Queens
+151660,UHF42,410,Rockaways
+151661,UHF42,501,Port Richmond
+151662,UHF42,502,Stapleton - St. George
+151663,UHF42,503,Willowbrook
+151664,UHF42,504,South Beach - Tottenville
+151714,Borough,1,Bronx
+151715,Borough,2,Brooklyn
+151716,Borough,3,Manhattan
+151717,Borough,4,Queens
+151718,Borough,5,Staten Island
+154501,CD,101,Battery Park City
+154502,CD,102,Greenwich Village
+154503,CD,103,Lower East Side
+154504,CD,104,Chelsea
+154505,CD,105,Midtown Business District
+154506,CD,106,Stuyvesant Town
+154507,CD,107,West Side
+154508,CD,108,Upper East Side
+154509,CD,109,Manhattanville
+154510,CD,110,Central Harlem
+154511,CD,111,East Harlem
+154512,CD,112,Washington Heights
+154513,CD,201,Melrose
+154514,CD,202,Hunts Point
+154515,CD,203,Morrisania
+154516,CD,204,Highbridge
+154517,CD,205,University Hts.
+154518,CD,206,East Tremont
+154519,CD,207,Bedford Park
+154520,CD,208,Riverdale
+154521,CD,209,Soundview
+154522,CD,210,Throgs Nk.
+154523,CD,211,Pelham Parkway
+154524,CD,212,Wakefield
+154525,CD,301,Williamsburg
+154526,CD,302,Brooklyn Heights
+154527,CD,303,Bedford Stuyvesant
+154528,CD,304,Bushwick
+154529,CD,305,East New York
+154530,CD,306,Park Slope
+154531,CD,307,Sunset Park
+154532,CD,308,Crown Heights North
+154533,CD,309,Crown Heights South
+154534,CD,310,Bay Ridge
+154535,CD,311,Bensonhurst
+154536,CD,312,Borough Park
+154537,CD,313,Coney Island
+154538,CD,314,Flatbush
+154539,CD,315,Sheepshead Bay
+154540,CD,316,Brownsville
+154541,CD,317,East Flatbush
+154542,CD,318,Canarsie
+154543,CD,401,Astoria
+154544,CD,402,Sunnyside
+154545,CD,403,Jackson Heights
+154546,CD,404,Elmhurst
+154547,CD,405,Ridgewood
+154548,CD,406,Forest Hills
+154549,CD,407,Flushing Bay Terrace
+154550,CD,408,Fresh Meadows
+154551,CD,409,Woodhaven
+154552,CD,410,Ozone Park
+154553,CD,411,Bayside
+154554,CD,412,Jamaica
+154555,CD,413,Queens Village
+154556,CD,414,The Rockaways
+154557,CD,501,Stapleton
+154558,CD,502,New Springville
+154559,CD,503,Tottenville
+151713,Citywide,1,New York City
+151671,UHF42,101,Kingsbridge - Riverdale
+151672,UHF42,102,Northeast Bronx
+151673,UHF42,103,Fordham - Bronx Pk
+151674,UHF42,104,Pelham - Throgs Neck
+151675,UHF42,105,Crotona -Tremont
+151676,UHF42,106,High Bridge - Morrisania
+151677,UHF42,107,Hunts Point - Mott Haven
+151678,UHF42,201,Greenpoint
+151679,UHF42,202,Downtown - Heights - Slope
+151680,UHF42,203,Bedford Stuyvesant - Crown Heights
+151681,UHF42,204,East New York
+151682,UHF42,205,Sunset Park
+151683,UHF42,206,Borough Park
+151684,UHF42,207,East Flatbush - Flatbush
+151685,UHF42,208,Canarsie - Flatlands
+151686,UHF42,209,Bensonhurst - Bay Ridge
+151687,UHF42,210,Coney Island - Sheepshead Bay
+151688,UHF42,211,Williamsburg - Bushwick
+151689,UHF42,301,Washington Heights
+151690,UHF42,302,Central Harlem - Morningside Heights
+151691,UHF42,303,East Harlem
+151692,UHF42,304,Upper West Side
+151693,UHF42,305,Upper East Side
+151694,UHF42,306,Chelsea - Clinton
+151695,UHF42,307,Gramercy Park - Murray Hill
+151696,UHF42,308,Greenwich Village - SoHo
+151697,UHF42,309,Union Square - Lower East Side
+151698,UHF42,310,Lower Manhattan
+151699,UHF42,401,Long Island City - Astoria
+151700,UHF42,402,West Queens
+151701,UHF42,403,Flushing - Clearview
+151702,UHF42,404,Bayside - Little Neck
+151703,UHF42,405,Ridgewood - Forest Hills
+151704,UHF42,406,Fresh Meadows
+151705,UHF42,407,Southwest Queens
+151706,UHF42,408,Jamaica
+151707,UHF42,409,Southeast Queens
+151708,UHF42,410,Rockaways
+151709,UHF42,501,Port Richmond
+151710,UHF42,502,Stapleton - St. George
+151711,UHF42,503,Willowbrook
+151712,UHF42,504,South Beach - Tottenville
+151762,Borough,1,Bronx
+151763,Borough,2,Brooklyn
+151764,Borough,3,Manhattan
+151765,Borough,4,Queens
+151766,Borough,5,Staten Island
+154442,CD,101,Battery Park City
+154443,CD,102,Greenwich Village
+154444,CD,103,Lower East Side
+154445,CD,104,Chelsea
+154446,CD,105,Midtown Business District
+154447,CD,106,Stuyvesant Town
+154448,CD,107,West Side
+154449,CD,108,Upper East Side
+154450,CD,109,Manhattanville
+154451,CD,110,Central Harlem
+154452,CD,111,East Harlem
+154453,CD,112,Washington Heights
+154454,CD,201,Melrose
+154455,CD,202,Hunts Point
+154456,CD,203,Morrisania
+154457,CD,204,Highbridge
+154458,CD,205,University Hts.
+154459,CD,206,East Tremont
+154460,CD,207,Bedford Park
+154461,CD,208,Riverdale
+154462,CD,209,Soundview
+154463,CD,210,Throgs Nk.
+154464,CD,211,Pelham Parkway
+154465,CD,212,Wakefield
+154466,CD,301,Williamsburg
+154467,CD,302,Brooklyn Heights
+154468,CD,303,Bedford Stuyvesant
+154469,CD,304,Bushwick
+154470,CD,305,East New York
+154471,CD,306,Park Slope
+154472,CD,307,Sunset Park
+154473,CD,308,Crown Heights North
+154474,CD,309,Crown Heights South
+154475,CD,310,Bay Ridge
+154476,CD,311,Bensonhurst
+154477,CD,312,Borough Park
+154478,CD,313,Coney Island
+154479,CD,314,Flatbush
+154480,CD,315,Sheepshead Bay
+154481,CD,316,Brownsville
+154482,CD,317,East Flatbush
+154483,CD,318,Canarsie
+154484,CD,401,Astoria
+154485,CD,402,Sunnyside
+154486,CD,403,Jackson Heights
+154487,CD,404,Elmhurst
+154488,CD,405,Ridgewood
+154489,CD,406,Forest Hills
+154490,CD,407,Flushing Bay Terrace
+154491,CD,408,Fresh Meadows
+154492,CD,409,Woodhaven
+154493,CD,410,Ozone Park
+154494,CD,411,Bayside
+154495,CD,412,Jamaica
+154496,CD,413,Queens Village
+154497,CD,414,The Rockaways
+154498,CD,501,Stapleton
+154499,CD,502,New Springville
+154500,CD,503,Tottenville
+151761,Citywide,1,New York City
+151719,UHF42,101,Kingsbridge - Riverdale
+151720,UHF42,102,Northeast Bronx
+151721,UHF42,103,Fordham - Bronx Pk
+151722,UHF42,104,Pelham - Throgs Neck
+151723,UHF42,105,Crotona -Tremont
+151724,UHF42,106,High Bridge - Morrisania
+151725,UHF42,107,Hunts Point - Mott Haven
+151726,UHF42,201,Greenpoint
+151727,UHF42,202,Downtown - Heights - Slope
+151728,UHF42,203,Bedford Stuyvesant - Crown Heights
+151729,UHF42,204,East New York
+151730,UHF42,205,Sunset Park
+151731,UHF42,206,Borough Park
+151732,UHF42,207,East Flatbush - Flatbush
+151733,UHF42,208,Canarsie - Flatlands
+151734,UHF42,209,Bensonhurst - Bay Ridge
+151735,UHF42,210,Coney Island - Sheepshead Bay
+151736,UHF42,211,Williamsburg - Bushwick
+151737,UHF42,301,Washington Heights
+151738,UHF42,302,Central Harlem - Morningside Heights
+151739,UHF42,303,East Harlem
+151740,UHF42,304,Upper West Side
+151741,UHF42,305,Upper East Side
+151742,UHF42,306,Chelsea - Clinton
+151743,UHF42,307,Gramercy Park - Murray Hill
+151744,UHF42,308,Greenwich Village - SoHo
+151745,UHF42,309,Union Square - Lower East Side
+151746,UHF42,310,Lower Manhattan
+151747,UHF42,401,Long Island City - Astoria
+151748,UHF42,402,West Queens
+151749,UHF42,403,Flushing - Clearview
+151750,UHF42,404,Bayside - Little Neck
+151751,UHF42,405,Ridgewood - Forest Hills
+151752,UHF42,406,Fresh Meadows
+151753,UHF42,407,Southwest Queens
+151754,UHF42,408,Jamaica
+151755,UHF42,409,Southeast Queens
+151756,UHF42,410,Rockaways
+151757,UHF42,501,Port Richmond
+151758,UHF42,502,Stapleton - St. George
+151759,UHF42,503,Willowbrook
+151760,UHF42,504,South Beach - Tottenville

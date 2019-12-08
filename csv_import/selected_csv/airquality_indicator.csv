@@ -1,0 +1,25 @@
+indicator_id,indicator_name
+639,PM2.5-Attributable Deaths 
+640,Boiler Emissions- Total SO2 Emissions
+641,Boiler Emissions- Total PM2.5 Emissions
+642,Boiler Emissions- Total NOx Emissions
+643,Traffic Density- Annual Vehicle Miles Traveled (VMT)
+644,Traffic Density- Annual Vehicle Miles Traveled (VMT) for Cars
+645,Traffic Density- Annual Vehicle Miles Traveled (VMT) for Trucks
+646,Air Toxics Concentrations- Average Benzene Concentrations
+647,Air Toxics Concentrations- Average Formaldehyde Concentrations
+648,PM2.5-Attributable Asthma ED Visits 
+650,PM2.5-Attributable Respiratory Hospitalizations (Adults 20 Yrs and Older)
+651,PM2.5-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older) 
+652,O3-Attributable Cardiac and Respiratory Deaths 
+653,O3-Attributable Asthma ED Visits
+655,O3-Attributable Asthma Hospitalizations 
+657,PM2.5-Attributable Asthma ED Visits 
+659,O3-Attributable Asthma ED Visits
+661,O3-Attributable Asthma Hospitalizations 
+662,Neighborhood Air Quality Concentrations- Fine Particulate Matter (PM2.5)
+663,Neighborhood Air Quality Concentrations- Elemental Carbon (EC)
+664,Neighborhood Air Quality Concentrations- Nitric Oxide (NO)
+665,Neighborhood Air Quality Concentrations- Nitrogen Dioxide (NO2)
+666,Neighborhood Air Quality Concentrations- Ozone (O3)
+667,Neighborhood Air Quality Concentrations: Sulfur Dioxide (SO2)
