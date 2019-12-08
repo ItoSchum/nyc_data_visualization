@@ -1,4 +1,4 @@
-#NYC Data Visualization
+# NYC Data Visualization
 ## Dataset
 
 1. **Liquor Authority Quarterly List of Active Licenses API**
