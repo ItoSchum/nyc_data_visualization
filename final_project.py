@@ -6,7 +6,6 @@ import lxml
 import plotly.express as px
 import plotly.graph_objects as go
 
-print('testtesttest')
 
 def crime_query(conn):
     df = pd.read_sql_query("select * from airquality_indicator;", conn, index_col='indicator_id')
