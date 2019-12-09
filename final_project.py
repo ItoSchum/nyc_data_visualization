@@ -11,34 +11,35 @@ def crime_query(conn):
     df = pd.read_sql_query("select * from airquality_indicator;", conn, index_col='indicator_id')
 
     while True:
-        print('1. Crime statics by years.\n'
+        print('1. Crime statics by crime.\n'
               '2. Crime statics by months.\n'
               '3. Crime Statics by hours.\n'
               '4. Crime statics by map.\n'
-              '5. quit')
+              'q. quit')
         choise = input('Input Here:')
         if choise == '1':
-            date_method = 'year'
-            query = "select date_trunc(%(d_method)s,  cmplnt_fr_dt) as cmplnt_year, count(cmplnt_num) " \
-                    "from crime group by cmplnt_year;"
+            query = "SELECT cd.ky_cd, ofns_desc, law_cat_cd, count(cmplnt_num) " \
+                    "FROM crime c " \
+                    "JOIN crime_desc cd " \
+                    "ON (c.ky_cd=cd.ky_cd) " \
+                    "GROUP BY cd.ky_cd, ofns_desc, law_cat_cd " \
+                    "ORDER BY count desc;"
             df = pd.read_sql_query(query,
-                                   conn,
-                                   params={'d_method': date_method})
+                                   conn)
             print(df)
-            fig = px.bar(df, x='cmplnt_year', y='count',
-                            color='cmplnt_year', barmode='relative',
+            fig = px.bar(df, x='ofns_desc', y='count',
+                            color='ofns_desc', barmode='relative',
+                         hover_data=['law_cat_cd'],
                          labels={'pop':'New York City Crime Data'})
 
             fig.show()
         elif choise == '2':
-            year_num = int(input('Input the specific year'))
-            date_method = 'month'
-            query = "select date_trunc(%(d_method)s,  cmplnt_fr_dt) as cmplnt_year, count(cmplnt_num) " \
-                    "from  (select * from crime where date_part('year', cmplnt_fr_dt)=%(year)s) c " \
-                    "group by cmplnt_year;"
+            # query = "select date_trunc(%(d_method)s,  cmplnt_fr_dt) as cmplnt_year, count(cmplnt_num) " \
+            #         "from  (select * from crime where date_part('year', cmplnt_fr_dt)=%(year)s) c " \
+            #         "group by cmplnt_year;"
+            query = "select TO_CHAR(cmplnt_fr_dt, 'Month') as cmplnt_year, count(*) from crime group by cmplnt_year;"
             df = pd.read_sql_query(query,
-                                   conn,
-                                   params={'d_method': date_method, 'year':year_num})
+                                   conn)
             print(df)
             fig = px.line(df, x='cmplnt_year', y='count')
 
@@ -58,21 +59,26 @@ def crime_query(conn):
 
             fig.show()
         elif choise == '4':
-            year_num = int(input('Input the specific year:'))
-            data_per = float(input('Input the percent of data:'))
+            law = ['MISDEMEANOR', 'VIOLATION', 'FELONY']
+            law_num = int(input('Which of the crime type you want to see?\n1.Misdemeanor\n2.Violation\n3.Felony\nEnter here:'))
+            data_per = int(input('How many data you want to see?(Enter a integer less than 100000)\n Enter here:'))
             mapbox_public_token = 'pk.eyJ1IjoiZ3Vvb29vb2ppbmciLCJhIjoiY2szeGF6M3dmMDA1YzNtbGkzdm5rcGpqZSJ9.i6dEynHbMFZkg9kjVzp9Vg'
             px.set_mapbox_access_token(mapbox_public_token)
-            query = "select geo.cmplnt_num, geo.boro_nm, geo.latitude, geo.longtitude " \
+            query = "select geo.cmplnt_num, geo.boro_nm, geo.latitude, geo.longtitude, cd.law_cat_cd " \
+                    "FROM( select geo.cmplnt_num, c.ky_cd, geo.boro_nm, geo.latitude, geo.longtitude " \
                     "from  crime_geo geo " \
                     "JOIN crime c " \
-                    "ON (geo.cmplnt_num=c.cmplnt_num) " \
-                    "where date_part('year', cmplnt_fr_dt)=%(year)s; "
-            df = pd.read_sql_query(query, conn, params={'year':year_num})
-            df = df.sample(frac=data_per)
+                    "ON (geo.cmplnt_num=c.cmplnt_num)) geo " \
+                    "JOIN (select * from crime_desc " \
+                    "where law_cat_cd=%(type)s) cd " \
+                    "ON (geo.ky_cd=cd.ky_cd);"
+            df = pd.read_sql_query(query, conn, params={'type':law[law_num-1]})
+            df = df.sample(data_per)
 
             fig = px.scatter_mapbox(df, lat='latitude', lon='longtitude',
                                     color='boro_nm',
                                     opacity=0.8,
+                                    hover_data= ['law_cat_cd'],
                                     color_continuous_scale=px.colors.cyclical.IceFire,
                                     zoom=10)
             fig.update_layout(
