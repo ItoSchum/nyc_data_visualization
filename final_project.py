@@ -28,15 +28,12 @@ def crime_query(conn):
                                    conn)
             print(df)
             fig = px.bar(df, x='ofns_desc', y='count',
-                            color='ofns_desc', barmode='relative',
+                         color='ofns_desc', barmode='relative',
                          hover_data=['law_cat_cd'],
-                         labels={'pop':'New York City Crime Data'})
+                         labels={'pop': 'New York City Crime Data'})
 
             fig.show()
         elif choise == '2':
-            # query = "select date_trunc(%(d_method)s,  cmplnt_fr_dt) as cmplnt_year, count(cmplnt_num) " \
-            #         "from  (select * from crime where date_part('year', cmplnt_fr_dt)=%(year)s) c " \
-            #         "group by cmplnt_year;"
             query = "select TO_CHAR(cmplnt_fr_dt, 'Month') as cmplnt_year, count(*) from crime group by cmplnt_year;"
             df = pd.read_sql_query(query,
                                    conn)
@@ -60,7 +57,8 @@ def crime_query(conn):
             fig.show()
         elif choise == '4':
             law = ['MISDEMEANOR', 'VIOLATION', 'FELONY']
-            law_num = int(input('Which of the crime type you want to see?\n1.Misdemeanor\n2.Violation\n3.Felony\nEnter here:'))
+            law_num = int(
+                input('Which of the crime type you want to see?\n1.Misdemeanor\n2.Violation\n3.Felony\nEnter here:'))
             data_per = int(input('How many data you want to see?(Enter a integer less than 100000)\n Enter here:'))
             mapbox_public_token = 'pk.eyJ1IjoiZ3Vvb29vb2ppbmciLCJhIjoiY2szeGF6M3dmMDA1YzNtbGkzdm5rcGpqZSJ9.i6dEynHbMFZkg9kjVzp9Vg'
             px.set_mapbox_access_token(mapbox_public_token)
@@ -72,13 +70,13 @@ def crime_query(conn):
                     "JOIN (select * from crime_desc " \
                     "where law_cat_cd=%(type)s) cd " \
                     "ON (geo.ky_cd=cd.ky_cd);"
-            df = pd.read_sql_query(query, conn, params={'type':law[law_num-1]})
+            df = pd.read_sql_query(query, conn, params={'type': law[law_num - 1]})
             df = df.sample(data_per)
 
             fig = px.scatter_mapbox(df, lat='latitude', lon='longtitude',
                                     color='boro_nm',
                                     opacity=0.8,
-                                    hover_data= ['law_cat_cd'],
+                                    hover_data=['law_cat_cd'],
                                     color_continuous_scale=px.colors.cyclical.IceFire,
                                     zoom=10)
             fig.update_layout(
@@ -97,40 +95,37 @@ def crime_query(conn):
         else:
             break
 
-def airquality_query(conn):
-    df = pd.read_sql_query("select * from airquality_indicator;", conn, index_col='indicator_id')
 
-    # print("1: UHF42")
-    # print("2: Borough")
-    # area = input('Which of the area you want to check?\nEnter here:')
-    # acode = ''
-    # if area == '1': acode = 'UHF42'
-    # elif area == '2': acode = 'Borough'
-    # else:
-    #     print('Wrong input')
-    #     return
-    # print(df)
-    # indicatorID = int(input('Which one of the indicator statics you want to check? \nEnter here:'))
-    indicatorID = 639
-    acode = 'UHF42'
-    query = "SELECT aq.indicator_data_id as id, geo.geo_entity_name  FROM " \
-            "airquality aq JOIN airquality_geo geo ON (aq.indicator_data_id=geo.indicator_data_id) " \
-            "WHERE aq.indicator_id=%(id)s AND geo.geo_type_name=%(code)s AND aq.data_valuemessage>50.0;"
-    df = pd.read_sql_query(query,
-                           conn,
-                           params={'id': indicatorID, 'code': acode})
-    print(df)
-    fig = px.histogram(df, x='geo_entity_name', y='id',
-                       histfunc='count', color='geo_entity_name')
-    fig.update_layout(showlegend=True)
-    fig.show()
+def airquality_query(conn):
+    acode = ['UHF42', 'Rorough']
+    while True:
+        print("Which of the area code you want to see?\n1. UHF42\n2. Borough\nq. Quit")
+        area = int(input('Enter here:'))
+        if area != 1 and area != 2:
+            break
+        query = "SELECT geo_entity_name, sum(data_valuemessage) FROM " \
+                "airquality aq JOIN airquality_geo geo " \
+                "ON (aq.indicator_data_id=geo.indicator_data_id) " \
+                "WHERE geo_type_name=%(code)s " \
+                "GROUP BY geo_entity_name " \
+                "ORDER BY sum DESC;"
+        df = pd.read_sql_query(query,
+                               conn,
+                               params={'code': acode[area - 1]})
+        print(df)
+        fig = px.bar(df, x='geo_entity_name', y='sum',
+                     color='geo_entity_name',
+                     barmode='relative',
+                     labels={'pop': 'New York City Air Quality Data'})
+        fig.show()
 
 
 if __name__ == '__main__':
     conn_string = "host='localhost' dbname='project' user='postgres' password='j'"
     conn = psycopg2.connect(conn_string)
 
-    # airquality_query(conn)
-    crime_query(conn)
+    airquality_query(conn)
+
+    # crime_query(conn)
     # DELETE FROM CRIME WHERE cmplnt_num=211843983 OR cmplnt_num=821425869 OR cmplnt_num=414788103  OR cmplnt_num=148685327;
     # DELETE FROM crime_geo WHERE cmplnt_num=211843983 OR cmplnt_num=821425869 OR cmplnt_num=414788103  OR cmplnt_num=148685327;
