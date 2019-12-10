@@ -12,6 +12,7 @@ DROP TABLE IF EXISTS airquality_geo CASCADE;
 DROP TABLE IF EXISTS crime CASCADE;
 DROP TABLE IF EXISTS crime_desc CASCADE;
 DROP TABLE IF EXISTS crime_geo CASCADE;
+DROP TABLE IF EXISTS crime_region CASCADE;
 DROP TABLE IF EXISTS abnyc CASCADE;
 DROP TABLE IF EXISTS abnyc_geo CASCADE;
 DROP TABLE IF EXISTS abnyc_nbhd CASCADE;
@@ -54,6 +55,7 @@ CREATE TABLE airquality_geo(
 CREATE TABLE crime(
     cmplnt_num integer,
     cmplnt_fr_dt date,
+    cmplnt_fr_tm time,
     ky_cd integer,
     loc_of_occur_desc character varying(255),
     prem_typ_desc character varying(255)
@@ -68,9 +70,13 @@ CREATE TABLE crime_desc(
 
 CREATE TABLE crime_geo(
 	cmplnt_num integer,
-	boro_nm character varying(255),
 	latitude float,
-	longtitude float
+	longitude float
+);
+
+CREATE TABLE crime_region(
+    cmplnt_num integer,
+    boro_nm character varying(255)
 );
 
 
@@ -82,7 +88,7 @@ CREATE TABLE abnyc (
     id CHARACTER VARYING(255),
     name CHARACTER VARYING(255),
     host_id CHARACTER VARYING(255),
-    neighbourhood_group CHARACTER VARYING(255),
+    neighbourhood CHARACTER VARYING(255),
     room_type CHARACTER VARYING(255),
     price integer,
     minimum_nights integer,
