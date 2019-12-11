@@ -85,7 +85,7 @@ CREATE TABLE crime_region(
 --
 
 CREATE TABLE abnyc (
-    id CHARACTER VARYING(255),
+    id INTEGER,
     name CHARACTER VARYING(255),
     host_id CHARACTER VARYING(255),
     neighbourhood CHARACTER VARYING(255),
@@ -100,7 +100,7 @@ CREATE TABLE abnyc (
 );
 
 CREATE TABLE abnyc_geo(
-    id CHARACTER VARYING(255),
+    id INTEGER,
 	latitude float,
     longitude float
 );
@@ -111,7 +111,7 @@ CREATE TABLE abnyc_nbhd(
 );
 
 CREATE TABLE abnyc_host(
-	host_id CHARACTER VARYING(255),
+	host_id INTEGER,
 	host_name CHARACTER VARYING(255)
 );
 
