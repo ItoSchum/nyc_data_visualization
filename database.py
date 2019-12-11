@@ -353,16 +353,20 @@ def crime_airbnb(conn, col, fav):
         pre = input('Enter here: ')
         lst = [int(i) for i in pre.split(',')]
         for i in lst:
-            query = 'SELECT id, name, host_id, neighbourhood, room_type, price, minimum_nights, number_of_reviews, availability_365 from abnyc WHERE id=%(ids)s;'
-            df = pd.read_sql_query(query, conn, params={'ids': i})
-            data = df.to_dict(orient='records')
-            fav.insert_many(data)
+            print(col.find({'id':i}))
+            if fav.find({'id':i}).count() > 0:
+                print('ID:',i,'already added in your favorite list.')
+            else:
+                query = 'SELECT id, name, host_id, neighbourhood, room_type, price, minimum_nights, number_of_reviews, availability_365 from abnyc WHERE id=%(ids)s;'
+                df = pd.read_sql_query(query, conn, params={'ids': i})
+                data = df.to_dict(orient='records')
+                fav.insert_many(data)
         df = pd.DataFrame(list(fav.find()))
         print(df)
-        if input('Press q to quit: ') == 'q':
+        if input('Press q to QUIT, any other key to CONTINUE: ') == 'q':
             break
 
-def crime_liquor(conn, col):
+def airbnb_liquor(conn, col, fav):
     while True:
         col.remove()
         # crime_bo = ['QUEENS', 'MANHATTAN', 'BRONX', 'BROOKLYN', 'STATEN ISLAND']
@@ -370,10 +374,10 @@ def crime_liquor(conn, col):
         # print('Enter the number to see the crime and airbnb data on map.\n1.Queens\n'
         #       '2.Manhattan\n3.Bronx\n4.Brooklyn\n5.Staten Island')
         # boro_n = int(input('Enter here: '))
-        query1 = 'SELECT * FROM crime_geo;'
+        query1 = 'SELECT * FROM abnyc_geo;'
         df1 = pd.read_sql_query(query1, conn)
-        df1 = df1.sample(15000)
-        df1['name'] = df1.shape[0] * ['crime']
+        df1 = df1.sample(20000)
+        df1['name'] = df1.shape[0] * ['airbnb']
         data1 = df1.to_dict(orient='records')
         col.insert_many(data1)
 
@@ -404,5 +408,19 @@ def crime_liquor(conn, col):
         fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 4})
         fig.show()
 
-        if input('Press q to quit: ') == 'q':
+        print('Do you have any preference Airbnb? \nEnter Airbnb ID with comma seperate.')
+        pre = input('Enter here: ')
+        lst = [int(i) for i in pre.split(',')]
+        for i in lst:
+            print(col.find({'id':i}))
+            if fav.find({'id':i}).count() > 0:
+                print('ID:',i,'already added in your favorite list.')
+            else:
+                query = 'SELECT id, name, host_id, neighbourhood, room_type, price, minimum_nights, number_of_reviews, availability_365 from abnyc WHERE id=%(ids)s;'
+                df = pd.read_sql_query(query, conn, params={'ids': i})
+                data = df.to_dict(orient='records')
+                fav.insert_many(data)
+        df = pd.DataFrame(list(fav.find()))
+        print(df)
+        if input('Press q to QUIT, any other key to CONTINUE: ') == 'q':
             break

@@ -108,7 +108,11 @@ Use command `python3 application.py` at the same directory, and the terminal wil
 	- Users can choose one target region in NYC from `Queens`, `Manhattan`, `Bronx`, `Brooklyn`, `Staten Island` and check out the hybrid map with the distribution of Airbnb and Crime
 	- Users can add some Favorite Airbnb points (ID) on the map
 	
-6. `Quit`: Quit the application
+6. When `Hybrid Airbnb & Liquor Store` displayed<br>
+	- Users can check out the hybrid map with the distribution of Airbnb and Liquor Store
+	- Users can add some Favorite Airbnb points (ID) on the map
+	
+7. `Quit`: Quit the application
 
 ## Demo
 ![demo.png](media/demo.png)
