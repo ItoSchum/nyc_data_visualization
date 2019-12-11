@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     while True:
 
-        mode = input("--- Mode Select ---\n\n1. NYC Air Quality\n2. NYC Liquor\n3. NYC Airbnb\n4. NYC Crime\n5. Hybrid Airbnb & Crime\nq. Quit\n\nEnter here: ")
+        mode = input("--- Mode Select ---\n\n1. NYC Air Quality\n2. NYC Liquor\n3. NYC Airbnb\n4. NYC Crime\n5. Hybrid Airbnb & Crime\n6. Hybrid Liquor Store & Crime\nq. Quit\n\nEnter here: ")
         if mode == '1':
             database.airquality_query(conn)
         elif mode == '2':
@@ -33,6 +33,8 @@ if __name__ == '__main__':
             database.crime_query(conn)
         elif mode == '5':
             database.crime_airbnb(conn, col, fav)
+        elif mode == '6':
+            database.crime_liquor(conn, col)
         else: 
             break
 

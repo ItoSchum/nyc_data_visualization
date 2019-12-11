@@ -1,17 +1,13 @@
 #!/usr/local/var/pyenv/shims/python3
-#!python3
-import psycopg2
-import pandas as pd
-import numpy as np
-import os
-import lxml
-import plotly.express as px
-import plotly.graph_objects as go
+# !python3
 import calendar
-import pymongo
+
+import pandas as pd
+import plotly.express as px
 
 mapbox_public_token = 'pk.eyJ1IjoiZ3Vvb29vb2ppbmciLCJhIjoiY2szeGF6M3dmMDA1YzNtbGkzdm5rcGpqZSJ9.i6dEynHbMFZkg9kjVzp9Vg'
 px.set_mapbox_access_token(mapbox_public_token)
+
 
 def abnyc_query(conn):
     df = pd.read_sql_query("select * from abnyc;", conn, index_col='id')
@@ -22,47 +18,47 @@ def abnyc_query(conn):
               '3. NYC Airbnb statics by reviews on map.\n'
               'q. Quit')
         choice = input('Input Here: ')
-        
+
         size_indicator = ""
 
         if choice == '1':
             query = "SELECT compound.id, compound.latitude, compound.longitude, nbhd.neighbourhood_group, compound.minimum_nights " \
                     "FROM (" \
-                        "SELECT geo.id, geo.latitude, geo.longitude, main.neighbourhood, main.minimum_nights " \
-                        "FROM  abnyc_geo AS geo " \
-                        "INNER JOIN abnyc AS main " \
-                        "ON geo.id = main.id) AS compound " \
+                    "SELECT geo.id, geo.latitude, geo.longitude, main.neighbourhood, main.minimum_nights " \
+                    "FROM  abnyc_geo AS geo " \
+                    "INNER JOIN abnyc AS main " \
+                    "ON geo.id = main.id) AS compound " \
                     "INNER JOIN (" \
-                        "SELECT * FROM abnyc_nbhd) AS nbhd " \
-                        "ON nbhd.neighbourhood = compound.neighbourhood;"
+                    "SELECT * FROM abnyc_nbhd) AS nbhd " \
+                    "ON nbhd.neighbourhood = compound.neighbourhood;"
 
             size_indicator = "minimum_nights"
 
         elif choice == '2':
             query = "SELECT compound.id, compound.latitude, compound.longitude, nbhd.neighbourhood_group, compound.availability_365 " \
                     "FROM (" \
-                        "SELECT geo.id, geo.latitude, geo.longitude, main.neighbourhood, main.availability_365 " \
-                        "FROM  abnyc_geo AS geo " \
-                        "INNER JOIN abnyc AS main " \
-                        "ON geo.id = main.id) AS compound " \
+                    "SELECT geo.id, geo.latitude, geo.longitude, main.neighbourhood, main.availability_365 " \
+                    "FROM  abnyc_geo AS geo " \
+                    "INNER JOIN abnyc AS main " \
+                    "ON geo.id = main.id) AS compound " \
                     "INNER JOIN (" \
-                        "SELECT * FROM abnyc_nbhd) AS nbhd " \
-                        "ON nbhd.neighbourhood = compound.neighbourhood;"
-            
+                    "SELECT * FROM abnyc_nbhd) AS nbhd " \
+                    "ON nbhd.neighbourhood = compound.neighbourhood;"
+
             size_indicator = "availability_365"
 
         elif choice == '3':
             query = "SELECT compound.id, compound.latitude, compound.longitude, nbhd.neighbourhood_group, compound.number_of_reviews " \
                     "FROM (" \
-                        "SELECT geo.id, geo.latitude, geo.longitude, main.neighbourhood, main.number_of_reviews " \
-                        "FROM  abnyc_geo AS geo " \
-                        "INNER JOIN abnyc AS main " \
-                        "ON geo.id = main.id) AS compound " \
+                    "SELECT geo.id, geo.latitude, geo.longitude, main.neighbourhood, main.number_of_reviews " \
+                    "FROM  abnyc_geo AS geo " \
+                    "INNER JOIN abnyc AS main " \
+                    "ON geo.id = main.id) AS compound " \
                     "INNER JOIN (" \
-                        "SELECT * FROM abnyc_nbhd) AS nbhd " \
-                        "ON nbhd.neighbourhood = compound.neighbourhood;"
+                    "SELECT * FROM abnyc_nbhd) AS nbhd " \
+                    "ON nbhd.neighbourhood = compound.neighbourhood;"
 
-            size_indicator = "number_of_reviews"    
+            size_indicator = "number_of_reviews"
 
         else:
             break
@@ -88,6 +84,7 @@ def abnyc_query(conn):
         fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 4})
         fig.show()
 
+
 def liquor_query(conn):
     df = pd.read_sql_query("select * from abnyc;", conn, index_col='id')
 
@@ -105,17 +102,17 @@ def liquor_query(conn):
 
             query = "SELECT compound.license_serial_number, compound.latitude, compound.longitude, compound.license_effective_date, type.license_type_name " \
                     "FROM (" \
-                        "SELECT geo.license_serial_number, geo.latitude, geo.longitude, main.license_class_code, main.license_effective_date " \
-                        "FROM  liquor_geo AS geo " \
-                        "INNER JOIN ( " \
-                            "SELECT * " \
-                            "FROM liquor " \
-                            "WHERE license_effective_date >= '%(year)s-%(month)s-01' AND license_effective_date < '%(year)s-%(month)s-%(end_day)s') AS main " \
-                        "ON geo.license_serial_number = main.license_serial_number) AS compound " \
+                    "SELECT geo.license_serial_number, geo.latitude, geo.longitude, main.license_class_code, main.license_effective_date " \
+                    "FROM  liquor_geo AS geo " \
+                    "INNER JOIN ( " \
+                    "SELECT * " \
+                    "FROM liquor " \
+                    "WHERE license_effective_date >= '%(year)s-%(month)s-01' AND license_effective_date < '%(year)s-%(month)s-%(end_day)s') AS main " \
+                    "ON geo.license_serial_number = main.license_serial_number) AS compound " \
                     "INNER JOIN (" \
-                        "SELECT * FROM liquor_type) AS type " \
-                        "ON type.license_class_code = compound.license_class_code;"
-            
+                    "SELECT * FROM liquor_type) AS type " \
+                    "ON type.license_class_code = compound.license_class_code;"
+
             year = year_month.split("-")[0]
             month = year_month.split("-")[1]
             month_range = calendar.monthrange(int(year), int(month))
@@ -128,29 +125,29 @@ def liquor_query(conn):
 
             query = "SELECT compound.license_serial_number, compound.latitude, compound.longitude, compound.license_effective_date, type.license_type_name " \
                     "FROM (" \
-                        "SELECT geo.license_serial_number, geo.latitude, geo.longitude, main.license_class_code, main.license_effective_date " \
-                        "FROM  liquor_geo AS geo " \
-                        "INNER JOIN ( " \
-                            "SELECT * " \
-                            "FROM liquor " \
-                            "WHERE license_effective_date >= '%(year)s-01-01' AND license_effective_date <= '%(year)s-12-31') AS main " \
-                        "ON geo.license_serial_number = main.license_serial_number) AS compound " \
+                    "SELECT geo.license_serial_number, geo.latitude, geo.longitude, main.license_class_code, main.license_effective_date " \
+                    "FROM  liquor_geo AS geo " \
+                    "INNER JOIN ( " \
+                    "SELECT * " \
+                    "FROM liquor " \
+                    "WHERE license_effective_date >= '%(year)s-01-01' AND license_effective_date <= '%(year)s-12-31') AS main " \
+                    "ON geo.license_serial_number = main.license_serial_number) AS compound " \
                     "INNER JOIN (" \
-                        "SELECT * FROM liquor_type) AS type " \
-                        "ON type.license_class_code = compound.license_class_code;"
+                    "SELECT * FROM liquor_type) AS type " \
+                    "ON type.license_class_code = compound.license_class_code;"
 
             df = pd.read_sql_query(query, conn, params={'year': year})
 
         elif choice == '3':
             query = "SELECT compound.license_serial_number, compound.latitude, compound.longitude, compound.license_effective_date, type.license_type_name " \
                     "FROM (" \
-                        "SELECT geo.license_serial_number, geo.latitude, geo.longitude, main.license_class_code, main.license_effective_date " \
-                        "FROM  liquor_geo AS geo " \
-                        "INNER JOIN liquor AS main " \
-                        "ON geo.license_serial_number = main.license_serial_number) AS compound " \
+                    "SELECT geo.license_serial_number, geo.latitude, geo.longitude, main.license_class_code, main.license_effective_date " \
+                    "FROM  liquor_geo AS geo " \
+                    "INNER JOIN liquor AS main " \
+                    "ON geo.license_serial_number = main.license_serial_number) AS compound " \
                     "INNER JOIN (" \
-                        "SELECT * FROM liquor_type) AS type " \
-                        "ON type.license_class_code = compound.license_class_code;"
+                    "SELECT * FROM liquor_type) AS type " \
+                    "ON type.license_class_code = compound.license_class_code;"
 
             # size_indicator = "number_of_reviews"    
             df = pd.read_sql_query(query, conn)
@@ -190,7 +187,7 @@ def crime_query(conn):
               '4. Crime statics by map.\n'
               'q. Quit')
         choice = input('Input Here: ')
-        
+
         if choice == '1':
             query = "SELECT cd.ky_cd, ofns_desc, law_cat_cd, count(cmplnt_num) " \
                     "FROM crime c " \
@@ -207,7 +204,7 @@ def crime_query(conn):
                          labels={'pop': 'New York City Crime Data'})
 
             fig.show()
-        
+
         elif choice == '2':
             query = "select TO_CHAR(cmplnt_fr_dt, 'Month') as cmplnt_year, count(*) from crime group by cmplnt_year;"
             df = pd.read_sql_query(query,
@@ -216,7 +213,7 @@ def crime_query(conn):
             fig = px.line(df, x='cmplnt_year', y='count')
 
             fig.show()
-        
+
         elif choice == '3':
             date_method = 'hour'
             query = "select date_trunc(%(d_method)s,  cmplnt_fr_tm) as cmplnt_hour, count(cmplnt_num) " \
@@ -231,21 +228,21 @@ def crime_query(conn):
             fig = px.line(df, x='cmplnt_hour', y='count')
 
             fig.show()
-        
+
         elif choice == '4':
             law = ['MISDEMEANOR', 'VIOLATION', 'FELONY']
             law_num = int(
                 input('Which of the crime type you want to see?\n1.Misdemeanor\n2.Violation\n3.Felony\nEnter here: '))
             data_per = int(input('How many data you want to see?(Enter a integer less than 100000)\n Enter here: '))
-            
+
             query = "SELECT geo.cmplnt_num, region.boro_nm, geo.latitude, geo.longitude, cd.law_cat_cd " \
                     "FROM (SELECT geo.cmplnt_num, c.ky_cd, geo.latitude, geo.longitude " \
-                        "FROM crime_geo AS geo " \
-                        "JOIN crime AS c " \
-                        "ON geo.cmplnt_num=c.cmplnt_num) AS geo " \
+                    "FROM crime_geo AS geo " \
+                    "JOIN crime AS c " \
+                    "ON geo.cmplnt_num=c.cmplnt_num) AS geo " \
                     "JOIN (SELECT * " \
-                        "FROM crime_desc " \
-                        "WHERE law_cat_cd=%(type)s) AS cd " \
+                    "FROM crime_desc " \
+                    "WHERE law_cat_cd=%(type)s) AS cd " \
                     "ON geo.ky_cd=cd.ky_cd " \
                     "JOIN crime_region AS region " \
                     "ON geo.cmplnt_num=region.cmplnt_num;"
@@ -282,7 +279,7 @@ def airquality_query(conn):
     while True:
         print("Which of the area code you want to see?\n1. UHF42\n2. Borough\nq. Quit")
         area = input('Enter here: ')
-        
+
         if area != '1' and area != '2':
             break
         area = int(area)
@@ -304,30 +301,29 @@ def airquality_query(conn):
 
 
 def crime_airbnb(conn, col, fav):
-
     while True:
         col.remove()
-        crime_bo = [ 'QUEENS', 'MANHATTAN', 'BRONX', 'BROOKLYN', 'STATEN ISLAND']
+        crime_bo = ['QUEENS', 'MANHATTAN', 'BRONX', 'BROOKLYN', 'STATEN ISLAND']
         an_bo = ['Queens', 'Manhattan', 'Bronx', 'Brooklyn', 'Staten Island']
         print('Enter the number to see the crime and airbnb data on map.\n1.Queens\n'
-            '2.Manhattan\n3.Bronx\n4.Brooklyn\n5.Staten Island')
+              '2.Manhattan\n3.Bronx\n4.Brooklyn\n5.Staten Island')
         boro_n = int(input('Enter here: '))
         query1 = 'SELECT * FROM crime_geo g ' \
-                'JOIN crime_region r ' \
-                'ON (g.cmplnt_num=r.cmplnt_num) ' \
-                'WHERE boro_nm = %(boro)s;'
-        df1 = pd.read_sql_query(query1, conn, params={'boro':crime_bo[boro_n-1]})
+                 'JOIN crime_region r ' \
+                 'ON (g.cmplnt_num=r.cmplnt_num) ' \
+                 'WHERE boro_nm = %(boro)s;'
+        df1 = pd.read_sql_query(query1, conn, params={'boro': crime_bo[boro_n - 1]})
         df1 = df1.sample(3000)
-        df1['name'] = df1.shape[0] * ['crime'] 
+        df1['name'] = df1.shape[0] * ['crime']
         data1 = df1.to_dict(orient='records')
         col.insert_many(data1)
 
         query2 = 'SELECT a.id, g.latitude, g.longitude, n.neighbourhood_group ' \
-                'FROM abnyc a, abnyc_geo g, abnyc_nbhd n ' \
-                'WHERE a.id=g.id AND a.neighbourhood=n.neighbourhood ' \
-                'AND neighbourhood_group = %(boro)s;'
-        df2 = pd.read_sql_query(query2, conn, params={'boro':an_bo[boro_n-1]})
-        df2['name'] = df2.shape[0] * ['airbnb'] 
+                 'FROM abnyc a, abnyc_geo g, abnyc_nbhd n ' \
+                 'WHERE a.id=g.id AND a.neighbourhood=n.neighbourhood ' \
+                 'AND neighbourhood_group = %(boro)s;'
+        df2 = pd.read_sql_query(query2, conn, params={'boro': an_bo[boro_n - 1]})
+        df2['name'] = df2.shape[0] * ['airbnb']
         data2 = df2.to_dict(orient='records')
         col.insert_many(data2)
 
@@ -358,10 +354,55 @@ def crime_airbnb(conn, col, fav):
         lst = [int(i) for i in pre.split(',')]
         for i in lst:
             query = 'SELECT id, name, host_id, neighbourhood, room_type, price, minimum_nights, number_of_reviews, availability_365 from abnyc WHERE id=%(ids)s;'
-            df = pd.read_sql_query(query, conn, params={'ids':i})
+            df = pd.read_sql_query(query, conn, params={'ids': i})
             data = df.to_dict(orient='records')
             fav.insert_many(data)
         df = pd.DataFrame(list(fav.find()))
         print(df)
+        if input('Press q to quit: ') == 'q':
+            break
+
+def crime_liquor(conn, col):
+    while True:
+        col.remove()
+        # crime_bo = ['QUEENS', 'MANHATTAN', 'BRONX', 'BROOKLYN', 'STATEN ISLAND']
+        # an_bo = ['Queens', 'Manhattan', 'Bronx', 'Brooklyn', 'Staten Island']
+        # print('Enter the number to see the crime and airbnb data on map.\n1.Queens\n'
+        #       '2.Manhattan\n3.Bronx\n4.Brooklyn\n5.Staten Island')
+        # boro_n = int(input('Enter here: '))
+        query1 = 'SELECT * FROM crime_geo;'
+        df1 = pd.read_sql_query(query1, conn)
+        df1 = df1.sample(15000)
+        df1['name'] = df1.shape[0] * ['crime']
+        data1 = df1.to_dict(orient='records')
+        col.insert_many(data1)
+
+        query2 = 'SELECT * from liquor_geo;'
+        df2 = pd.read_sql_query(query2, conn)
+        df2['name'] = df2.shape[0] * ['liquor']
+        data2 = df2.to_dict(orient='records')
+        col.insert_many(data2)
+
+        df = pd.DataFrame(list(col.find()))
+        print(df.shape[0])
+        fig = px.scatter_mapbox(df, lat='latitude', lon='longitude',
+                                color='name',
+                                opacity=0.8,
+                                color_continuous_scale=px.colors.cyclical.IceFire,
+                                zoom=10)
+        fig.update_layout(
+            mapbox_style="dark",
+            showlegend=False,
+            mapbox_layers=[
+                {
+                    "below": 'traces',
+                    "sourcetype": "raster",
+
+                },
+            ]
+        )
+        fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 4})
+        fig.show()
+
         if input('Press q to quit: ') == 'q':
             break
