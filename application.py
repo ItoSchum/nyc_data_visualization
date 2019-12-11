@@ -8,6 +8,8 @@ import os
 import lxml
 import plotly.express as px
 import plotly.graph_objects as go
+import calendar
+
 
 def abnyc_query(conn):
     df = pd.read_sql_query("select * from abnyc;", conn, index_col='id')
@@ -26,7 +28,6 @@ def abnyc_query(conn):
         size_indicator = ""
 
         if choice == '1':
-
             query = "SELECT compound.id, compound.latitude, compound.longitude, nbhd.neighbourhood_group, compound.minimum_nights " \
                     "FROM (" \
                         "SELECT geo.id, geo.latitude, geo.longitude, main.neighbourhood, main.minimum_nights " \
@@ -40,7 +41,6 @@ def abnyc_query(conn):
             size_indicator = "minimum_nights"
 
         elif choice == '2':
-            
             query = "SELECT compound.id, compound.latitude, compound.longitude, nbhd.neighbourhood_group, compound.availability_365 " \
                     "FROM (" \
                         "SELECT geo.id, geo.latitude, geo.longitude, main.neighbourhood, main.availability_365 " \
@@ -54,7 +54,6 @@ def abnyc_query(conn):
             size_indicator = "availability_365"
 
         elif choice == '3':
-
             query = "SELECT compound.id, compound.latitude, compound.longitude, nbhd.neighbourhood_group, compound.number_of_reviews " \
                     "FROM (" \
                         "SELECT geo.id, geo.latitude, geo.longitude, main.neighbourhood, main.number_of_reviews " \
@@ -76,6 +75,99 @@ def abnyc_query(conn):
         fig = px.scatter_mapbox(df, lat='latitude', lon='longitude',
                                 color='neighbourhood_group',
                                 size=size_indicator,
+                                opacity=0.8,
+                                color_continuous_scale=px.colors.cyclical.IceFire, size_max=15, zoom=10)
+
+        fig.update_layout(
+            mapbox_style="dark",
+            showlegend=False,
+            mapbox_layers=[
+                {
+                    "below": 'traces',
+                    "sourcetype": "raster",
+                },
+            ]
+        )
+        fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 4})
+        fig.show()
+
+def liquor_query(conn):
+    df = pd.read_sql_query("select * from abnyc;", conn, index_col='id')
+
+    while True:
+        print('1. NYC liquor statics by month on map.\n'
+              '2. NYC liquor statics by year on map.\n'
+              '3. NYC liquor statics overall on map.\n'
+              'q. Quit')
+        choice = input('Input Here: ')
+
+        # data_per = int(input('How many data you want to see? (Enter a integer less than 100000)\n Enter here: '))
+        mapbox_public_token = 'pk.eyJ1IjoiZ3Vvb29vb2ppbmciLCJhIjoiY2szeGF6M3dmMDA1YzNtbGkzdm5rcGpqZSJ9.i6dEynHbMFZkg9kjVzp9Vg'
+        px.set_mapbox_access_token(mapbox_public_token)
+
+        if choice == '1':
+            year_month = input('Which [YEAR-MONTH] would you like to check?\nEnter here: ')
+
+            query = "SELECT compound.license_serial_number, compound.latitude, compound.longitude, compound.license_effective_date, type.license_type_name " \
+                    "FROM (" \
+                        "SELECT geo.license_serial_number, geo.latitude, geo.longitude, main.license_class_code, main.license_effective_date " \
+                        "FROM  liquor_geo AS geo " \
+                        "INNER JOIN ( " \
+                            "SELECT * " \
+                            "FROM liquor " \
+                            "WHERE license_effective_date >= '%(year)s-%(month)s-01' AND license_effective_date < '%(year)s-%(month)s-%(end_day)s') AS main " \
+                        "ON geo.license_serial_number = main.license_serial_number) AS compound " \
+                    "INNER JOIN (" \
+                        "SELECT * FROM liquor_type) AS type " \
+                        "ON type.license_class_code = compound.license_class_code;"
+            
+            year = year_month.split("-")[0]
+            month = year_month.split("-")[1]
+            month_range = calendar.monthrange(int(year), int(month))
+            end_day = month_range[1]
+
+            df = pd.read_sql_query(query, conn, params={'year': int(year), 'month': int(month), 'end_day': end_day})
+
+        elif choice == '2':
+            year = int(input('Which [YEAR] would you like to check?\nEnter here: '))
+
+            query = "SELECT compound.license_serial_number, compound.latitude, compound.longitude, compound.license_effective_date, type.license_type_name " \
+                    "FROM (" \
+                        "SELECT geo.license_serial_number, geo.latitude, geo.longitude, main.license_class_code, main.license_effective_date " \
+                        "FROM  liquor_geo AS geo " \
+                        "INNER JOIN ( " \
+                            "SELECT * " \
+                            "FROM liquor " \
+                            "WHERE license_effective_date >= '%(year)s-01-01' AND license_effective_date <= '%(year)s-12-31') AS main " \
+                        "ON geo.license_serial_number = main.license_serial_number) AS compound " \
+                    "INNER JOIN (" \
+                        "SELECT * FROM liquor_type) AS type " \
+                        "ON type.license_class_code = compound.license_class_code;"
+
+            df = pd.read_sql_query(query, conn, params={'year': year})
+
+        elif choice == '3':
+            query = "SELECT compound.license_serial_number, compound.latitude, compound.longitude, compound.license_effective_date, type.license_type_name " \
+                    "FROM (" \
+                        "SELECT geo.license_serial_number, geo.latitude, geo.longitude, main.license_class_code, main.license_effective_date " \
+                        "FROM  liquor_geo AS geo " \
+                        "INNER JOIN liquor AS main " \
+                        "ON geo.license_serial_number = main.license_serial_number) AS compound " \
+                    "INNER JOIN (" \
+                        "SELECT * FROM liquor_type) AS type " \
+                        "ON type.license_class_code = compound.license_class_code;"
+
+            # size_indicator = "number_of_reviews"    
+            df = pd.read_sql_query(query, conn)
+
+        else:
+            break
+
+        # df = df.sample(data_per)
+
+        fig = px.scatter_mapbox(df, lat='latitude', lon='longitude',
+                                # color='license_effective_date',
+                                # size=10,
                                 opacity=0.8,
                                 color_continuous_scale=px.colors.cyclical.IceFire, size_max=15, zoom=10)
 
@@ -225,8 +317,9 @@ if __name__ == '__main__':
     conn = psycopg2.connect(conn_string)
 
     # abnyc_query(conn)
+    liquor_query(conn)
     # airquality_query(conn)
-    crime_query(conn)
+    # crime_query(conn)
 
-    # DELETE FROM CRIME WHERE cmplnt_num=211843983 OR cmplnt_num=821425869 OR cmplnt_num=414788103  OR cmplnt_num=148685327;
+    # DELETE FROM crime WHERE cmplnt_num=211843983 OR cmplnt_num=821425869 OR cmplnt_num=414788103  OR cmplnt_num=148685327;
     # DELETE FROM crime_geo WHERE cmplnt_num=211843983 OR cmplnt_num=821425869 OR cmplnt_num=414788103  OR cmplnt_num=148685327;
