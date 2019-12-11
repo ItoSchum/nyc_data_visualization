@@ -123,7 +123,7 @@ Use command `python3 application.py` at the same directory, and the terminal wil
     - Location of data: <https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data#AB_NYC_2019.csv>
     - License: CC0: Public Domain *(No copyright)*
 3. **New York City Crimes**
-    - Location of data: https://www.kaggle.com/adamschroeder/crimes-new-york-city#NYPD_Complaint_Data_Historic.csv
+    - Location of data: <https://www.kaggle.com/adamschroeder/crimes-new-york-city#NYPD_Complaint_Data_Historic.csv>
     - License: CC0: Public Domain *(No copyright)*
 4. **New York City Air Quality**
     - Location of data: <https://www.kaggle.com/new-york-city/new-york-city-air-quality#air-quality.csv>
