@@ -8,6 +8,8 @@ import os
 import lxml
 import plotly.express as px
 import plotly.graph_objects as go
+import pymongo
+
 
 def abnyc_query(conn):
     df = pd.read_sql_query("select * from abnyc;", conn, index_col='id')
@@ -215,6 +217,50 @@ def airquality_query(conn):
         fig.show()
 
 
+def crime_airbnb(conn, col):
+    col.remove()
+    crime_bo = [ 'QUEENS', 'MANHATTAN', 'BRONX', 'BROOKLYN', 'STATEN ISLAND']
+    an_bo = []
+    print('Enter the number to see the crime and airbnb data on map.\n1.Queens\n'
+          '2.Manhattan\n3.Bronx\n4.Brooklyn\n5.Staten Island')
+    boro_n = intput(input('Enter here:'))
+    query1 = 'SELECT * FROM crime_geo g ' \
+            'JOIN crime_region r ' \
+            'ON (g.cmplnt_num=r.cmplnt_num) ' \
+            'WHERE boro_nm = %(boro)s;'
+    df1 = pd.read_sql_query(query1, conn, params={'boro':crime_bo[boro_n-1]})
+    data1 = df1.to_dict(orient='records')
+    col.insert_many(data1)
+
+    query2 = 'SELECT a.id, g.latitude, g.longitude, n.neighbourhood_group ' \
+             'FROM abnyc a, abnyc_geo g, abnyc_nbhd n ' \
+             'WHERE a.id=g.id AND a.neighbourhood=n.neighbourhood ' \
+             'WHERE neighbourhood_group = %(boro)s;'
+    df2 = pd.read_sql_query(query2, conn, params={'boro':an_bo[boro_n-1]})
+    data2 = df2.to_dict(orient='records')
+    col.inser_many(data2)
+
+    df = pd.DataFrame(list(col.find()))
+    fig = px.scatter_mapbox(df, lat='latitude', lon='longitude',
+                            color='boro_nm',
+                            opacity=0.8,
+                            color_continuous_scale=px.colors.cyclical.IceFire,
+                            zoom=10)
+    fig.update_layout(
+        mapbox_style="dark",
+        showlegend=False,
+        mapbox_layers=[
+            {
+                "below": 'traces',
+                "sourcetype": "raster",
+
+            },
+        ]
+    )
+    fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 4})
+    fig.show()
+
+
 if __name__ == '__main__':
     HOST = 'localhost'
     DBNAME = 'project'
@@ -224,9 +270,13 @@ if __name__ == '__main__':
     conn_string = "host=%s dbname=%s user=%s password=%s" % (HOST, DBNAME, USER, PASSWORD)
     conn = psycopg2.connect(conn_string)
 
+    myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+    mydb = myclient['nyc']
+    col = mydb['geo']
     # abnyc_query(conn)
     # airquality_query(conn)
-    crime_query(conn)
+    # crime_query(conn)
+    crime_airbnb(conn, col)
 
     # DELETE FROM CRIME WHERE cmplnt_num=211843983 OR cmplnt_num=821425869 OR cmplnt_num=414788103  OR cmplnt_num=148685327;
     # DELETE FROM crime_geo WHERE cmplnt_num=211843983 OR cmplnt_num=821425869 OR cmplnt_num=414788103  OR cmplnt_num=148685327;
