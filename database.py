@@ -317,7 +317,7 @@ def crime_airbnb(conn, col, fav):
                 'ON (g.cmplnt_num=r.cmplnt_num) ' \
                 'WHERE boro_nm = %(boro)s;'
         df1 = pd.read_sql_query(query1, conn, params={'boro':crime_bo[boro_n-1]})
-        df1 = df1.sample(5000)
+        df1 = df1.sample(3000)
         df1['name'] = df1.shape[0] * ['crime'] 
         data1 = df1.to_dict(orient='records')
         col.insert_many(data1)

@@ -16,7 +16,7 @@ except:
 
 # %%
 # open selected osver
-csv_dirname = 'selected_csv'
+csv_dirname = './csv_import'
 def find_csv_filenames(path_to_dir, suffix=".csv"):
     filenames = os.listdir(r"%s" % path_to_dir)
     return [filename for filename in filenames if filename.endswith(suffix)]
